@@ -1,0 +1,270 @@
+
+    {
+
+      "metiers": [
+
+    Chauffagiste : {
+
+    1: {
+
+    "nom" : "Etienne chauffage",
+
+    "adresse" : "123 rue du soleil, 59100 Lille",
+
+    "mail" : "etienne.chauffage@gmail.com",
+
+    "contact": "mail",
+
+    "telephone" : "0320032003",
+
+    "description": "Etienne chauffage est un spécialiste du chauffage depuis 22ans",
+
+    "url_cover" : "http://www.bonnal-didier-plomberie-chauffage.com/wp-content/uploads/2014/02/Fotolia_41787101_M.jpg",
+
+    "url_image" : "http://www.albert-et-fils.fr/images/chauffagiste-val-de-marne.jpg",
+
+    "url_sitepro" : "",
+
+    "note" : {
+
+    1: {
+
+    "date" : 2014-04-23,
+
+    "nom" : "Thomas",
+
+    "iduser" : 987,
+
+    "avis" : "",
+
+    "urlimage" : "",
+
+    "noteGenerale" : 4,
+
+    "delai" : 5,
+
+    "sympathie" : 5,
+
+    "prix" : 3,
+
+    "respectDevis" : 4,
+
+    },
+
+    2: {
+
+    "date" : 2014-10-12,
+
+    "nom" : "Marie",
+
+    "iduser" : 986,
+
+    "avis" : "",
+
+    "urlimage" : "",
+
+    "noteGenerale" : 5,
+
+    "delai" : 5,
+
+    "sympathie" : 5,
+
+    "prix" : 5,
+
+    "respectDevis" : 5,
+
+    },
+
+    3: {
+
+    "date" : 2015-01-20,
+
+    "nom" : "Laure",
+
+    "iduser" : 985,
+
+    "avis" : "",
+
+    "urlimage" : "",
+
+    "noteGenerale" : 3.5,
+
+    "delai" : 5,
+
+    "sympathie" : 3,
+
+    "prix" : 3,
+
+    "respectDevis" : 3,
+
+    },
+
+    4: {
+
+    "date" : 2015-02-23,
+
+    "nom" : "Sigmunt",
+
+    "iduser" : 984,
+
+    "avis" : "",
+
+    "urlimage" : "",
+
+    "noteGenerale" : 4,
+
+    "delai" : 4,
+
+    "sympathie" : 4,
+
+    "prix" : 4,
+
+    "respectDevis" : 4,
+
+    },
+
+    5: {
+
+    "date" : 2015-04-10,
+
+    "nom" : "Théo",
+
+    "iduser" : 983,
+
+    "avis" : "",
+
+    "urlimage" : "",
+
+    "noteGenerale" : 4,
+
+    "delai" : 5,
+
+    "sympathie" : 3,
+
+    "prix" : 4,
+
+    "respectDevis" : 4,
+
+    },
+
+    6: {
+
+    "date" : 2015-06-02,
+
+    "nom" : "Al",
+
+    "iduser" : 982,
+
+    "avis" : "",
+
+    "urlimage" : "",
+
+    "noteGenerale" : 4.5,
+
+    "delai" : 5,
+
+    "sympathie" : 4,
+
+    "prix" : 4,
+
+    "respectDevis" : 5,
+
+    },
+
+    7: {
+
+    "date" : 2015-10-30,
+
+    "nom" : "Rob",
+
+    "iduser" : 981,
+
+    "avis" : "",
+
+    "urlimage" : "",
+
+    "noteGenerale" : 4,
+
+    "delai" : 5,
+
+    "sympathie" : 4,
+
+    "prix" : 5,
+
+    "respectDevis" : 3,
+
+    },
+
+    }
+
+    },
+
+    2: {
+
+    "nom" : "Jean chauffage",
+
+    "adresse" : "1321 avenue du ciel 59000 Lille",
+
+    "mail" : "jean.chauffage@gmail.com",
+
+    "contact": "tel",
+
+    "telephone" : "0321432143",
+
+    "description": "Jean chauffage existe depuis 30ans",
+
+    "url_cover" : "http://www.bonnal-didier-plomberie-chauffage.com/wp-content/uploads/2014/02/Fotolia_41787101_M.jpg",
+
+    "url_image" : "http://www.albert-et-fils.fr/images/chauffagiste-val-de-marne.jpg",
+
+    "url_sitepro" : "",
+
+    "note" : {
+
+    1: {
+
+    "date" : 2015-10-23,
+
+    "nom" : "Stéphanie",
+
+    "iduser" : 980,
+
+    "avis" : "",
+
+    "urlimage" : "",
+
+    "noteGenerale" : 3,
+
+    "delai" : 3,
+
+    "sympathie" : 3,
+
+    "prix" : 3,
+
+    "respectDevis" : 3,
+
+    }
+
+    }
+
+    }
+
+    },
+
+    "Carrossier" : [],
+
+    "Plombier":  [],
+
+    "Luthier": [],
+
+    "Cordonnier": [],
+
+
+      ],
+
+    }
+
+
+
+
+
