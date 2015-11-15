@@ -1,0 +1,3900 @@
+/* @override 
+	http://beta.f6s.com/css/components.css?2012-02-09%2005:54:00 */
+	
+/*-----------------------------------------------------------------------------------------
+		FILE UPLOADER
+------------------------------------------------------------------------------------------*/
+body .cs-file-uploader{
+	float: left;
+	position:relative;
+}
+body .add-button  .cs-file-uploader object{
+	z-index: 1;
+	position: absolute; 
+	left: 0px;
+	top: -13px;
+}
+body .cs-file-uploader .cs-button{
+	left: 0px;
+	position: relative;
+	top: 0px;
+	z-index: 0;
+}
+body .cs-file-uploader object{
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+body .cs-file-uploader span.cross{
+	z-index: 2;
+	position: absolute;
+	background-color: #7f7f7f;
+	height: 16px;
+	width: 16px;
+	top: -7px;
+	right: -7px;
+	cursor: pointer;
+}
+body .cs-file-uploader span.cross span{
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	background: url(../images/icons.png) -106px -47px transparent no-repeat;
+}
+body .cs-file-uploader span.cross:hover{
+	background-color: #e54040;
+}
+body .cs-file-uploader span.cross:hover span{
+	background-position: -106px -37px;
+}
+body .cs-file-uploader div.uploadifyQueue{
+	display: none;
+}
+
+/*-----------------------------------------------------------------------------------------
+		RATING
+------------------------------------------------------------------------------------------*/
+body .cs-rating{
+	visibility: hidden; 
+	white-space: nowrap; 
+	margin: 0px;
+}
+
+body .cs-rating .cancel,
+body .cs-rating .star {
+	float: left;
+	width: 24px;
+	height: 24px;
+	overflow: hidden;
+	text-indent: -999em;
+	cursor: pointer;
+}
+body .cs-rating-small .star {
+	width: 16px;
+	height: 16px;
+}
+body .cs-rating .star-left,
+body .cs-rating .star-right {
+  width: 8px
+}
+body .cs-rating .cancel,
+body .cs-rating .cancel a {background: url(../delete.gif) no-repeat 0 -16px;}
+
+body .cs-rating .star,
+body .cs-rating .star a {background: url(../images/icons.png) no-repeat -104px -100px transparent;}
+body .cs-rating-small .star,
+body .cs-rating-small .star a {background: url(../images/icons.png) no-repeat -128px -100px transparent;}
+body .cs-rating .star-left,
+body .cs-rating .star-left a {background: url(../images/icons.png) no-repeat -104px -100px transparent;}
+body .cs-rating .star-right,
+body .cs-rating .star-right a {background: url(../images/icons.png) no-repeat -104px -100px transparent;}
+
+body .cs-rating.cs-template-green .star {
+    margin-right: 5px;
+}
+body .cs-rating.cs-template-green .star,
+body .cs-rating.cs-template-green .star a {
+    background: url(../images/icons_redesign.png) no-repeat -110px -95px transparent!important;
+}
+body .cs-rating.cs-template-green div.hover a,
+body .cs-rating.cs-template-green div a:hover,
+body .cs-rating.cs-template-green div.on a {
+	background: url(../images/icons_redesign.png) no-repeat -94px -95px transparent!important;
+}
+body .cs-rating .cancel a, body .cs-rating .star a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: -104px -148px;
+}
+body .cs-rating-small .cancel a, body .cs-rating-small .star a {
+	background-position: -128px -132px;
+}
+body .cs-rating div.ratingBlock div.set a {
+	background-position: -104px -124px;
+}
+
+body .cs-rating div.ratingBlock div.unset a {
+	background-position: -104px -148px;
+}
+
+body .cs-rating div.on a {
+	background-position: -104px -124px;
+}
+body .cs-rating-small div.on a {
+	background-position: -128px -116px;
+}
+body .cs-rating div.hover a,
+body .cs-rating div a:hover {
+	background-position: -104px -124px;
+}
+body .cs-rating-small-nohover div a:hover {
+	background-position: -128px -132px !important;
+}
+body .cs-rating-small-nohover div.hover a:hover {
+	background-position: -128px -116px !important;
+}
+body .cs-rating-small div.hover a,
+body .cs-rating-small div a:hover {
+	background-position: -128px -116px;
+}
+body .cs-rating-small-nohover div.on a:hover {
+	background-position: -128px -116px !important;
+}
+body .cs-rating div.ratingBlock div.hover a {
+    background-position: -104px -124px
+}
+/*-----------------------------------------------------------------------------------------
+		DROP-DOWN
+------------------------------------------------------------------------------------------*/
+body .cs-dropdown{
+	padding: 0px 0px 0px 0px;
+	height: 31px;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	text-decoration: none;
+	position: relative;
+	line-height: 24px;
+}
+body .cs-dropdown-small{
+	height: 20px;
+	font-size: 11px;
+	line-height: 19px;
+}
+body .cs-dropdown-size-small{
+	height: 25px;
+	line-height: 17px;
+}
+body .cs-dropdown-size-normal{
+	height: 25px;
+	line-height: 17px;
+}
+body .cs-dropdown-size-larger{
+	height: 35px;
+	line-height: 33px;
+}
+body .cs-dropdown-medium{
+	height: 25px;
+	font-size: 11px;
+	line-height:25px;
+}
+body .cs-dropdown-color-red{
+	border: 1px solid #d22225;	
+	border-bottom-color: #b1191c;	
+}
+body .cs-dropdown-color-green{
+	border: 1px solid #3F7728;	
+	border-bottom-color: #113D06;	
+}
+body .cs-dropdown-color-light{
+	border: 1px solid #d4d4d4;	
+	border-bottom-color: #d4d4d4;	
+}
+body .cs-dropdown-color-light-pink{
+	border: 1px solid #CAAFAF;		
+}
+body .cs-dropdown-color-grey{
+	border: 1px solid #999999;
+}
+body .cs-dropdown-split span.split-caption{
+	padding: 0px 8px 0px 8px;
+	display: inline-block;
+	/*background: url(../images/components/cs-component-bgs.gif) repeat-x 0px 0px #f3f3f3;*/
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: center;
+	font-weight: normal;
+	text-decoration: none;
+	height: 24px;
+	background-repeat:no-repeat;
+	color: #444444;
+	text-decoration: none;
+	position: relative;
+	z-index: 0;
+	border-right: 1px solid #dddddd;
+	line-height: 23px;
+}
+
+body .cs-dropdown-invisible{
+	background: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+body .cs-dropdown-invisible.cs-dropdown-disabled {
+    border: 1px solid transparent !important;
+}
+body .cs-dropdown span.caption{
+	padding: 0px 27px 0px 8px;
+	display: inline-block;
+	background: none repeat-x 0px 0px #ffffff;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: none;
+	height: 31px;
+	line-height: 29px;
+	color: #444444;
+	text-decoration: none;
+	position: relative;
+	z-index: 0;
+}
+body .cs-dropdown-no-arrow span.caption {
+    padding-right: 8px;
+}
+body .cs-dropdown-small  span.caption{
+	padding-left: 5px;
+	padding-right: 15px;
+	height: 20px;
+	line-height: 19px;
+}
+body .cs-dropdown-no-arrow.cs-dropdown-small span.caption {
+    padding-right: 5px;
+}
+body .cs-dropdown-size-small  span.caption{
+	height: 25px;
+	line-height: 25px;
+	font-weight: normal;
+	font-size: 12px;
+}
+body .cs-dropdown-size-normal  span.caption{
+	height: 25px;
+	line-height: 25px;
+	font-weight: normal;
+	font-size: 14px;
+}
+body .cs-dropdown-size-larger  span.caption{
+	height: 35px;
+	line-height: 35px;
+	font-weight: normal;
+	padding-left: 15px;
+	padding-right: 30px;
+}
+body .cs-dropdown-no-arrow.cs-dropdown-size-larger span.caption {
+    padding-right: 15px;
+}
+/* FIREFOX ONLY */
+@-moz-document url-prefix() {
+    body .cs-dropdown-size-small  span.caption {
+        line-height: 24px;
+    }
+	body .cs-dropdown-size-normal  span.caption {
+        line-height: 24px;
+    }
+	body .cs-dropdown-size-larger  span.caption {
+        line-height: 34px;
+    }
+}
+body .cs-dropdown-color-red  span.caption{
+	background: none repeat-x 0px 0px #e54040;
+	background: -webkit-linear-gradient(top, #E54040, #da2828);      
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ec6262), color-stop(1, #da2828));
+	background: -moz-linear-gradient(top, #E54040, #da2828);
+	background: -o-linear-gradient(top, #E54040, #da2828);
+	background: linear-gradient(top, #E54040, #da2828);
+	color: #ffffff;
+	text-shadow: 0 -1px 1px rgba(83,15,16,.5);
+}
+body .cs-dropdown-color-light  span.caption{
+	background: none repeat-x 0px 0px #f5f5f5;
+	background: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #f5f5f5));
+	background: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+	background: -o-linear-gradient(top, #ffffff, #f5f5f5);
+	background: linear-gradient(top, #ffffff, #f5f5f5);
+	text-shadow: 0px 1px 1px #fff;
+	color: #636363;
+}
+body .cs-dropdown-color-light-pink  span.caption{
+	background: none repeat-x 0px 0px #ffffff;
+	background: -webkit-linear-gradient(top, #ffffff, #e1e1e1);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #e1e1e1));
+	background: -moz-linear-gradient(top, #ffffff, #e1e1e1);
+	background: -o-linear-gradient(top, #ffffff, #e1e1e1);
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ffffff, EndColorStr=#e1e1e1);
+	background: linear-gradient(top, #ffffff, #e1e1e1);
+	text-shadow: none;
+	color: #000000;
+}
+body .cs-dropdown-color-green  span.caption{
+	background: none repeat-x 0px 0px  #5FB03D;
+	background: -webkit-linear-gradient(top, #5FB03D, #337517);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5FB03D), color-stop(1, #337517));
+	background: -moz-linear-gradient(top, #5FB03D, #337517);
+	background: -o-linear-gradient(top, #5FB03D, #337517);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#5FB03D, EndColorStr=#337517);
+	background: linear-gradient(top, #5FB03D, #337517);
+	color: #F3FFBB;
+	text-shadow: none;
+}
+body .cs-dropdown-color-grey  span.caption{
+	background: none repeat-x 0px 0px #ececec;
+	background: -webkit-linear-gradient(top, #ececec, #dbdbdb);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ececec), color-stop(1, #dbdbdb));
+	background: -moz-linear-gradient(top, #ececec, #dbdbdb);
+	background: -o-linear-gradient(top, #ececec, #dbdbdb);
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ececec, EndColorStr=#dbdbdb);
+	background: linear-gradient(top, #ececec, #dbdbdb);
+	text-shadow: 0px 1px 1px #fff;
+	color: #333333;
+}
+body .cs-dropdown-medium  span.caption{
+	padding-left: 5px;
+	padding-right: 15px;
+	height: 25px;
+	line-height: 25px;
+}
+body .cs-dropdown-arrow-left span.caption{
+	padding-right: 8px;
+}
+body .cs-dropdown-split span.caption{
+	padding-left: 0px;
+	border-left: 1px solid #ffffff;
+}
+body .cs-dropdown-split span.caption:hover{
+/*	border: 1px solid #484848;
+	margin-top: -1px;
+	margin-right: -1px;*/
+}
+
+body .cs-dropdown-invisible span.caption, body .cs-dropdown-invisible.cs-dropdown-color-light-pink  span.caption{
+	background: none;
+	background-color: transparent ; 
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+body .cs-dropdown-invisible.cs-dropdown-color-light-pink span.caption{
+	color: #000099;
+}
+body .cs-dropdown span.caption span.title{
+	display: inline-block;
+}
+body .cs-dropdown span.caption-title-hide span.title{
+	width: 1px;
+	visibility: hidden;
+}
+body .cs-dropdown span.caption-title-hide{
+	padding-right: 16px;
+}
+body .cs-dropdown-arrow-left span.caption-title-hide{
+	padding-right: 0px;
+}
+body .cs-dropdown-size-small span.caption-title-hide{
+	padding-right: 16px;
+	padding-left: 10px;
+}
+body .cs-dropdown-split span.caption span.title{
+	width: 1px;
+	visibility: hidden;
+}
+body .cs-dropdown span.caption-with-icon{
+	padding-left: 28px;
+}
+body .cs-dropdown-arrow-left span.caption-with-icon{
+	padding-left: 50px;
+}
+body .cs-dropdown span.caption-with-icon span.caption-icon{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 4px;
+	left: 6px;
+	z-index: 1;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+body .cs-dropdown-arrow-left span.caption-with-icon span.caption-icon{
+	left: 28px;
+}
+body .cs-dropdown span.caption span.caption-arrow{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 8px;
+	right: 6px;
+	z-index: 1;
+	background: url(../images/components/cs-component-icons.png) -32px 0px transparent no-repeat;
+}
+body .cs-dropdown-medium span.caption span.caption-arrow{
+	height: 3px;
+	width: 5px;
+	top: 9px;
+	right: 6px;
+	background: url(../images/components/cs-component-icons.png) -23px -40px transparent no-repeat;
+}
+body .cs-dropdown-size-larger span.caption span.caption-arrow{
+	top: 10px;
+	right: 6px;
+}
+body .cs-dropdown-color-light span.caption span.caption-arrow{
+	background: url(../images/components/cs-component-icons.png) -32px 0px transparent no-repeat;
+}
+body .cs-dropdown-color-green span.caption span.caption-arrow{
+	background: url(../images/components/cs-component-icons.png?u=2013-12-04) 0px -144px transparent no-repeat;
+}
+body .cs-dropdown-size-small.cs-dropdown-color-grey span.caption span.caption-arrow{
+	top: 5px;
+}
+body .cs-dropdown-small span.caption span.caption-arrow{
+	height: 3px;
+	width: 5px;
+	top: 9px;
+	right: 6px;
+	background: url(../images/components/cs-component-icons.png) -23px -40px transparent no-repeat;
+}
+body .cs-dropdown-size-small span.caption span.caption-arrow{
+	top: 4px;
+}
+body .cs-dropdown-size-normal span.caption span.caption-arrow{
+	top: 4px;
+}
+body .cs-dropdown-color-red span.caption span.caption-arrow{
+	background-position: -65px -95px;
+}
+body .cs-dropdown-dark span.caption span.caption-arrow{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 8px;
+	right: 6px;
+	z-index: 1;
+	background: url(../images/components/cs-component-icons.png) -32px -16px transparent no-repeat;
+}
+body .cs-dropdown-arrow-left span.caption span.caption-arrow{
+	left: 6px;
+	right: auto;
+}
+body .cs-dropdown-invisible span.caption span.caption-arrow{
+	display: block;
+}
+body .cs-dropdown:hover{
+	border-color: #aaaaaa;
+}
+body .cs-dropdown-color-red:hover{
+	border: 1px solid #d22225;	
+	border-bottom-color: #b1191c;
+}
+body .cs-dropdown-color-green:hover{
+	border-color: #000000;	
+}
+body .cs-dropdown-color-grey:hover{
+	border-color: #666666;
+}
+body .cs-dropdown-split:hover{
+	/*border: 1px solid #979797;*/
+}
+body .cs-dropdown-color-light-pink:hover {
+	border: 1px solid #666666;
+}
+body .cs-dropdown-invisible.cs-dropdown-color-light-pink:hover {
+	border: 1px solid #caafaf;
+}
+body .cs-dropdown-opened.cs-dropdown-color-light-pink, body .cs-dropdown-opened.cs-dropdown-color-light-pink:hover{
+	border: 1px solid #666666;
+}
+
+body .cs-dropdown-dark:hover span.caption{
+	text-decoration: none;
+	background: url(../images/components/cs-component-bgs.gif) repeat-x 0px 0px #f3f3f3;
+	color:#444444;
+}
+body .cs-dropdown:hover span.caption{
+	text-decoration: none;
+}
+body .cs-dropdown-color-light:hover span.caption{
+	background: none repeat-x 0px 0px #f5f5f5;
+	background: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #f5f5f5));
+	background: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+	background: -o-linear-gradient(top, #ffffff, #f5f5f5);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ffffff, EndColorStr=#f5f5f5);
+	background: linear-gradient(top, #ffffff, #f5f5f5);
+	color: #636363;
+}
+body .cs-dropdown-color-light-pink:hover span.caption, body  .cs-dropdown-opened.cs-dropdown-color-light-pink span.caption{
+	background: none repeat-x 0px 0px #ffffff;
+	background: -webkit-linear-gradient(top, #ffffff, #e1e1e1);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #e1e1e1));
+	background: -moz-linear-gradient(top, #ffffff, #e1e1e1);
+	background: -o-linear-gradient(top, #ffffff, #e1e1e1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e1e1e1');
+	background: linear-gradient(top, #ffffff, #e1e1e1);
+	color: #000000;
+}
+body .cs-dropdown-color-grey:hover span.caption{
+	
+	background: none repeat-x 0px 0px #e54040;
+	background: -webkit-linear-gradient(top, #ececec, #dbdbdb);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ececec), color-stop(1, #dbdbdb));
+	background: -moz-linear-gradient(top, #ececec, #dbdbdb);
+	background: -o-linear-gradient(top, #ececec, #dbdbdb);
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ececec, EndColorStr=#dbdbdb);
+	background: linear-gradient(top, #ececec, #dbdbdb);
+	text-shadow: 0px 1px 1px #fff;
+	color: #333333;
+}
+body .cs-dropdown-dark span.caption{
+	background: none repeat-x 0px 0px #e54040;
+	background: -webkit-linear-gradient(top, #E54040, #da2828);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ec6262), color-stop(1, #da2828));
+	background: -moz-linear-gradient(top, #E54040, #da2828);
+	background: -o-linear-gradient(top, #E54040, #da2828);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ec6262, EndColorStr=#da2828);
+	background: linear-gradient(top, #E54040, #da2828);
+	color: #ffffff;
+	text-shadow: 0 -1px 1px rgba(83,15,16,.5);
+}
+body .cs-dropdown-opened{
+	border-color: #AAAAAA;
+	color: #ffffff;
+}
+body .cs-dropdown-opened.cs-dropdown-color-red{
+	border-color: #7E1416;
+}
+body .cs-dropdown-opened.cs-dropdown-color-openwhite{
+	border-color: #666666;
+	background-color: white;
+}
+body .cs-dropdown-opened.cs-dropdown-size-small.cs-dropdown-color-openwhite{
+	height: 32px;
+	margin-bottom: -7px;
+}
+body .cs-dropdown-invisible.cs-dropdown-color-light-pink:hover span.caption{
+	color: #000000;
+}
+body .cs-dropdown-split-opened{
+	/*border: 1px solid #979797;*/
+}
+body .cs-dropdown-opened:hover{
+	/* border-color: #222222; */
+}
+body .cs-dropdown-split-opened:hover{
+	/* border: 1px solid #979797; */
+}
+body .cs-dropdown-opened span.caption{
+	/* background: none #555555;
+	color: #ffffff; */
+}
+body .cs-dropdown-split-opened span.caption{
+	/* border: 1px solid #484848;
+	margin-top: -1px;
+	margin-right: -1px; 
+    */
+}
+body .cs-dropdown-opened.cs-dropdown-size-small.cs-dropdown-color-openwhite  span.caption{
+	background: none white;
+	z-index: 20;
+	height: 32px;
+}
+body .cs-dropdown-opened.cs-dropdown-color-light span.caption{
+	background: none repeat-x 0px 0px #f5f5f5;
+	background: -webkit-linear-gradient(top, #f5f5f5, #ffffff);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f5f5f5), color-stop(1, #ffffff));
+	background: -moz-linear-gradient(top, #f5f5f5, #ffffff);
+	background: -o-linear-gradient(top, #f5f5f5, #ffffff);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f5f5f5, EndColorStr=#ffffff)";
+	background: linear-gradient(top, #f5f5f5, #ffffff);
+	color: #636363;
+}
+body .cs-dropdown-opened:hover span.caption{
+	/* background: none #555555;
+	color: #ffffff; */
+}
+body .cs-dropdown-invisible:hover span.caption span.caption-arrow{
+	display: block;
+}
+body .cs-dropdown-color-red:hover{
+	border-color: #7E1416;
+}
+body .cs-dropdown-color-red:hover span.caption span.caption-arrow{
+	background-position: -65px -95px;
+}
+body .cs-dropdown-opened span.caption span.caption-arrow{
+	/* background-position: -32px -16px;*/
+	display: block;
+}
+body .cs-dropdown-opened.cs-dropdown-size-small.cs-dropdown-color-openwhite:hover  span.caption{
+	color: #333333;
+}
+body .cs-dropdown-small-opened span.caption span.caption-arrow{
+	background-position: -23px -43px;
+	display: block;
+}
+body .cs-dropdown-opened.cs-dropdown-color-red span.caption span.caption-arrow{
+	background-position: -65px -95px;
+}
+body .cs-dropdown-opened.cs-dropdown-color-openwhite span.caption span.caption-arrow{
+	background-position: -32px 0px;
+}
+body .cs-dropdown-opened.cs-dropdown-color-light-pink span.caption span.caption-arrow{
+	background-position: -32px 0px;
+}
+body .cs-dropdown-opened.cs-dropdown-color-light span.caption span.caption-arrow{
+	background: url(../images/components/cs-component-icons.png) -32px 0px transparent no-repeat;
+}
+body .cs-dropdown span.hidden{
+	position: absolute;
+	left: -1px;
+	border: 1px solid #666666;
+	background-color: #ffffff;
+	display: inline-block;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	z-index: 19;
+	display: none;
+	line-height: 16px;
+}
+body .cs-dropdown span.hidden.top{
+	top: auto;
+	bottom: 31px;
+}
+body .cs-dropdown-small span.hidden{
+	top: 20px;
+}
+body .cs-dropdown-size-larger span.hidden{
+	top: 35px;
+}
+body .cs-dropdown-size-small span.hidden{
+	top: 25px;
+}
+body .cs-dropdown-size-small.cs-dropdown-color-openwhite span.hidden{
+	top: 31px;
+}
+body .cs-dropdown-right span.hidden{
+	left: auto;
+	right: -1px;
+}
+body .cs-dropdown span.hidden_left{
+	left: 0px;
+}
+body .cs-dropdown span.hidden_right{
+	right: 0px;
+}
+body .cs-dropdown-opened span.hidden{
+	display: block;
+}
+body .cs-dropdown span.hidden span.pointer{
+	position: absolute;
+	top: -7px;
+	width: 11px;
+	height: 7px;
+	background: url(../images/dropdown_cloud_pointer.gif) 0 0 transparent no-repeat;
+}
+body .cs-dropdown span.hidden_left span.pointer{
+	left: 20px;
+}
+body .cs-dropdown span.hidden_right span.pointer{
+	right: 20px;
+}
+body .cs-dropdown span.hidden ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+body .cs-dropdown span.hidden ul li{
+	color: #222222;
+	white-space: nowrap;
+	padding: 3px 14px 3px 26px;
+	display: block;
+	text-decoration: none;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 1px 0px 1px 0px;
+	position: relative;
+	text-align: left;
+	font-weight: normal;
+}
+body .cs-dropdown span.hidden ul li.indented span.entry {
+    padding-left: 20px;
+}
+body .cs-dropdown-right-texts span.hidden ul li{
+	padding-right: 50px;
+}
+body .cs-dropdown-no-drop-icons span.hidden ul li{
+	padding: 3px 14px 3px 10px;
+}
+body .cs-dropdown span.hidden ul li.disabled{
+	color: #777777;
+}
+body .cs-dropdown span.hidden ul li.hidden{
+	display: none;
+}
+body .cs-dropdown span.hidden ul li.break{
+	border-width: 0px;
+	padding: 5px 9px;
+}
+body .cs-dropdown span.hidden ul li.break span{
+	display: block;
+	height: 1px;
+	background-color: #cccccc;
+}
+body .cs-dropdown span.hidden ul li span.tick{
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/components/cs-component-icons.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	display: none;
+}
+body .cs-dropdown span.hidden ul li span.icon{
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+body .cs-dropdown span.hidden ul li.selected{
+	font-weight: bold;
+	color: #000000;
+}
+body .cs-dropdown span.hidden ul li.selected span.tick{
+	display: block;
+}
+body .cs-dropdown-no-drop-icons span.hidden ul li.selected span.tick{
+	display: none;
+}
+body .cs-dropdown span.hidden ul li.hover span.tick{
+	background-position: 0px -16px;
+}
+body .cs-dropdown span.hidden  ul li.hover{
+	color: #ffffff;
+	background-color: #7dc864;
+	border: 1px 0px 1px 0px solid #7dc864;
+}
+body .cs-dropdown span.hidden  ul li span.right-text{
+	position: absolute;
+	top: 3px;
+	right: 15px;
+	color: #888888;
+}
+body .cs-dropdown span.hidden  ul li.hover span.right-text{
+	color: #cccccc;
+}
+body .cs-dropdown span.hidden ul li.break-hover{
+	background-color: #ffffff;
+}
+body .cs-dropdown-disabled span.caption span.title {
+    color: #777777;
+}
+body .cs-dropdown-disabled span.caption span.caption-arrow {
+	background-position: -30px -96px;
+}
+body .cs-dropdown-disabled span.caption span.caption-arrow {
+	background-position: -30px -96px;
+}
+
+/*-----------------------------------------------------------------------------------------
+		EXPANDABLE
+------------------------------------------------------------------------------------------*/
+body .cs-expandable{
+	overflow: hidden !important;
+	max-height: 100px;
+}
+div.cs-expandable-arrow{
+	position: relative;
+	left: 50%;
+	margin-left: -5px;
+	height: 9px;
+	width: 15px;
+	background: url(../images/icons.png?222) -321px 0px transparent no-repeat;
+	display: block;
+	z-index: 2;
+	cursor: pointer;
+	margin-top: 5px;
+}
+div.cs-expandable-text{
+	position: relative;
+	left: 100%;
+	margin-left: -40px;
+	height: 9px;
+	width: 40px;
+	text-align: right;
+	display: block;
+	font-size: 12px;
+	z-index: 2;
+	cursor: pointer;
+	margin-top: 5px;
+	line-height: 12px;
+	color: #E54040;
+}
+div.cs-expandable-text:hover{
+	text-decoration: underline;
+}
+div.cs-expandable-arrow-up{
+	background-position: -321px -9px;
+}
+
+/*-----------------------------------------------------------------------------------------
+		BUTTON
+------------------------------------------------------------------------------------------*/
+
+
+body .cs-button{
+	padding: 0px 0px 0px 0px;
+	height: 33px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	line-height: 24px;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+body .cs-button-size-mini{
+	height: 22px;
+	line-height: 16px;
+}
+body .cs-button-size-table-small{
+	height: 24px;
+	line-height: 16px;
+}
+body .cs-button-size-micro{
+	height: 16px;
+	line-height: 12px;
+}
+body .cs-button-size-tiny{
+	height: 13px;
+	line-height: 12px;
+}
+body .cs-button-size-small{
+	height: 27px;
+	line-height: 17px;
+}
+body .cs-button-size-29{
+	height: 29px;
+	line-height: 17px;
+}
+body .cs-button-size-big{
+	height: 50px;
+	line-height: 38px;
+}
+body .cs-button-dark{
+
+}
+body .cs-button-disabled{
+	cursor: default;
+}
+body .cs-button-dark-disabled{
+	cursor: default;
+}
+body .cs-button-green-inactive{
+	border: 1px solid #7aa348;
+	cursor: default;
+}
+body .cs-button:hover{
+	
+}
+body .cs-button-dark:hover{
+
+}
+body .cs-button-disabled:hover{
+	border-color: #d7d7d7;
+}
+body .cs-button-dark-disabled:hover{
+	
+}
+body .cs-button-green-inactive:hover{
+	border-color: #7aa348;
+}
+body .cs-button span.loader{
+	position: absolute;
+	background-position: center center;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	display: none;
+}
+body .cs-button span.caption{
+	padding: 0px 20px 0px 20px;
+	display: inline-block;
+	font-size: 13px;
+	background-color: #ececec;
+	background: -webkit-linear-gradient(top, #ececec, #dbdbdb);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ececec), color-stop(1, #dbdbdb));
+	background: -moz-linear-gradient(top, #ececec, #dbdbdb);
+	background: -o-linear-gradient(top, #ececec, #dbdbdb);
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ececec, EndColorStr=#dbdbdb);
+	background: linear-gradient(top, #ececec, #dbdbdb);
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: center;
+	font-weight: 700;
+	border: 1px solid #999;
+	text-decoration: none;
+		text-shadow: 0px 1px 1px #fff;
+	height: 31px;
+	color: #333;
+	text-decoration: none;
+	position: relative;
+	font-weight: bold;
+	z-index: 0;
+	line-height: 30px;
+}
+body .cs-button-size-mini span.caption{
+	padding: 0px 6px 0px 6px;
+	font-size: 11px;
+	font-weight: 700;
+	text-shadow: none;
+	height: 20px;
+	line-height: 21px;
+}
+body .cs-dropdown-size-micro span.caption-title-hide {
+    display: none;
+}
+body .cs-dropdown-size-micro span.hidden.title-hidden {
+    top: -1px!important;
+}
+body .cs-button-size-micro span.caption{
+	padding: 0px 4px 0px 4px;
+	font-size: 9px;
+	font-weight: 700;
+	text-shadow: none;
+	height: 16px;
+	line-height: 15px;
+}
+body .cs-button-size-tiny span.caption{
+	padding: 0px 3px 0px 3px;
+	font-size: 9px;
+	font-weight: 700;
+	text-shadow: none;
+	height: 13px;
+	line-height: 13px;
+}
+body .cs-button-size-table-small span.caption{
+	padding: 0px 8px 0px 8px;
+	font-size: 12px;
+	font-weight: 300;
+	text-shadow: none;
+	height: 22px;
+	line-height: 22px;
+}
+body .cs-button-size-small span.caption{
+	padding: 0px 9px 0px 9px;
+	font-size: 14px;
+	font-weight: 300;
+	text-shadow: none;
+	height: 25px;
+	line-height: 25px;
+}
+body .cs-button-size-29 span.caption{
+	padding: 0px 9px 0px 9px;
+	font-size: 14px;
+	font-weight: 300;
+	text-shadow: none;
+	height: 27px;
+	line-height: 27px;
+}
+body .cs-button-size-small.cs-button-dark span.caption{
+	font-weight: 600;
+	text-shadow: none;
+}
+body .cs-button-size-small-icon span.caption{
+	padding: 0px 9px 0px 9px;
+	font-size: 14px;
+	font-weight: 300;
+	text-shadow: none;
+	height: 25px;
+	line-height: 25px;
+}
+/* FIREFOX ONLY */
+@-moz-document url-prefix() {
+    body .cs-button-size-small span.caption {
+        line-height: 23px;
+    }
+	body .cs-button-size-29 span.caption {
+        line-height: 25px;
+    }
+	body .cs-button-size-small-icon span.caption {
+        line-height: 23px;
+    }
+}
+body .cs-button-size-big span.caption{
+	padding: 0px 25px 0px 25px;
+	font-size: 20px;
+	font-weight: 700;
+	height: 48px;
+	line-height: 47px;
+}
+body .cs-button-size-larger span.caption{
+	padding: 3px 25px 3px 25px;
+	font-size: 16px;
+	font-weight: 700;
+	height: 31px;
+	line-height: 32px;
+}
+body .cs-button-dark span.caption{
+	background-color: #e54040;
+	background: -webkit-linear-gradient(top, #E54040, #da2828);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ec6262), color-stop(1, #da2828));
+	background: -moz-linear-gradient(top, #E54040, #da2828);
+	background: -o-linear-gradient(top, #E54040, #da2828);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ec6262, EndColorStr=#da2828);
+	background: linear-gradient(top, #E54040, #da2828);
+	color: #ffffff;
+	text-shadow: none;
+	border: 1px solid #d22225;	
+	border-bottom-color: #b1191c;	
+}
+body .cs-button-color-white span.caption{
+	background-color: #ffffff;
+	background: -webkit-linear-gradient(top, #ffffff, #f7f7f7);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #f7f7f7));
+	background: -moz-linear-gradient(top, #ffffff, #f7f7f7);
+	background: -o-linear-gradient(top, #ffffff, #f7f7f7);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ffffff, EndColorStr=#f7f7f7);
+	background: linear-gradient(top, #ffffff, #f7f7f7);
+	color: #333333;
+	border: 1px solid #aaaaaa;	
+	border-bottom-color: #999999;	
+}
+body .cs-button-color-green span.caption{
+	background-color: #5FB03D;
+	background: -webkit-linear-gradient(top, #5FB03D, #337517);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5FB03D), color-stop(1, #337517));
+	background: -moz-linear-gradient(top, #5FB03D, #337517);
+	background: -o-linear-gradient(top, #5FB03D, #337517);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#5FB03D, EndColorStr=#337517);
+	background: linear-gradient(top, #5FB03D, #337517);
+	color: #F3FFBB;
+	border: 1px solid #3F7728;	
+	border-bottom-color: #113D06;	
+	text-shadow: none;
+}
+body .cs-button-color-light-green span.caption{
+	background-color: #2e8643;
+	background: -webkit-linear-gradient(top, #a5e282, #5aac52);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #a5e282), color-stop(1, #5aac52));
+	background: -moz-linear-gradient(top, #a5e282, #5aac52);
+	background: -o-linear-gradient(top, #a5e282, #5aac52);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#a5e282, EndColorStr=#5aac52);
+	background: linear-gradient(top, #a5e282, #5aac52);
+	color: #000;
+	border: 1px solid #618a66;	
+	border-bottom-color: #618a66;	
+}
+body .cs-button-color-light-pink span.caption{
+	background-color: #f1f1f1;
+	background: -webkit-linear-gradient(top, #ffffff, #e1e1e1);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #e1e1e1));
+	background: -moz-linear-gradient(top, #ffffff, #e1e1e1);
+	background: -o-linear-gradient(top, #ffffff, #e1e1e1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ffffff, EndColorStr=#e1e1e1);
+	background: linear-gradient(top, #ffffff, #e1e1e1);
+	color: #000000;
+	border: 1px solid #caafaf;	
+	border-bottom-color: #caafaf;	
+}
+body .cs-button-color-light-salad span.caption{
+	background-color: #f1f1f1;
+	background: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #eeeeee));
+	background: -moz-linear-gradient(top, #ffffff, #eeeeee);
+	background: -o-linear-gradient(top, #ffffff, #eeeeee);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ffffff, EndColorStr=#eeeeee);
+	background: linear-gradient(top, #ffffff, #eeeeee);
+	color: #000000;
+	border: 1px solid #7dc864;	
+	border-bottom-color: #7dc864;	
+}
+body .cs-button-color-light-green span.caption{
+	background-color: #7ec66a;
+	background: -webkit-linear-gradient(top, #a7e384, #57aa51);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #a7e384), color-stop(1, #57aa51));
+	background: -moz-linear-gradient(top, #a7e384, #57aa51);
+	background: -o-linear-gradient(top, #a7e384, #57aa51);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#a7e384, EndColorStr=#57aa51);
+	background: linear-gradient(top, #a7e384, #57aa51);
+	color: #000000;
+	border: 1px solid #618a66;	
+	border-bottom-color: #618a66;	
+}
+body .cs-button-color-white-red span.caption{
+	background-color: #ffffff;
+	background: -webkit-linear-gradient(top, #ffffff, #f7f7f7);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #f7f7f7));
+	background: -moz-linear-gradient(top, #ffffff, #f7f7f7);
+	background: -o-linear-gradient(top, #ffffff, #f7f7f7);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ffffff, EndColorStr=#f7f7f7)";
+	background: linear-gradient(top, #ffffff, #f7f7f7);
+	color: #E54040;
+	border: 1px solid #aaaaaa;	
+	border-bottom-color: #999999;	
+}
+body .cs-button-color-facebook span.caption{
+	background-color: #5c75a9;
+	background: -webkit-linear-gradient(top, #5c75a9, #324b7f);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #5c75a9), color-stop(1, #324b7f));
+	background: -moz-linear-gradient(top, #5c75a9, #324b7f);
+	background: -o-linear-gradient(top, #5c75a9, #324b7f);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#5c75a9, EndColorStr=#324b7f);
+	background: linear-gradient(top, #5c75a9, #324b7f);
+	color: #ffffff;
+	text-shadow: 0 -1px 1px #324c74;
+	border: 1px solid #000033;	
+	border-color: #000033;	
+}
+body .cs-button-color-linkedin span.caption{
+	background-color: #2b8ac7;
+	background: -webkit-linear-gradient(top, #2b8ac7, #01609d);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2b8ac7), color-stop(1, #01609d));
+	background: -moz-linear-gradient(top, #2b8ac7, #01609d);
+	background: -o-linear-gradient(top, #2b8ac7, #01609d);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#2b8ac7, EndColorStr=#01609d);
+	background: linear-gradient(top, #2b8ac7, #01609d);
+	color: #ffffff;
+	text-shadow: 0 -1px 1px #00728c;
+	border: 1px solid #003366;	
+	border-color: #003366;	
+}
+body .cs-button-crop-left span.caption{
+	border-left-width: 0px;
+}
+
+
+body .cs-button:hover span.caption {
+	border-color: #666;
+}
+body .cs-button-color-facebook:hover span.caption{
+	border-color: #000000;
+}
+body .cs-button-color-linkedin:hover span.caption{
+	border-color: #000000;
+}
+
+
+body .cs-button-dark:hover span.caption {
+	border: 1px solid #7e1416;
+}
+body .cs-button-color-green:hover span.caption{
+	border-color: #00200e #00200e #00200e;
+}
+body .cs-button-color-hover-red:hover span.caption {
+	background-color: #e54040;
+	background: -webkit-linear-gradient(top, #E54040, #da2828);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ec6262), color-stop(1, #da2828));
+	background: -moz-linear-gradient(top, #E54040, #da2828);
+	background: -o-linear-gradient(top, #E54040, #da2828);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ec6262, EndColorStr=#da2828)";
+	background: linear-gradient(top, #E54040, #da2828);
+	color: #ffffff;
+	text-shadow: 0 -1px 1px rgba(83,15,16,.5);
+	border: 1px solid #d22225;	
+	border-bottom-color: #b1191c;
+	border: 1px solid #7e1416;
+}
+body .cs-button-crop-left:hover span.caption{
+	border-left-width: 0px;
+}
+
+body .cs-button-disabled span.caption{
+	color: #b6b6b6;
+	cursor: default;
+}
+body .cs-button-disabled.cs-button-color-green span.caption{
+	color: #edfdbb;
+	cursor: default;
+	background: -moz-linear-gradient(top,#aed69d 0%,#9bbd8c 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#aed69d),color-stop(100%,#9bbd8c));
+	background: -webkit-linear-gradient(top,#aed69d 0%,#9bbd8c 100%);
+	background: -o-linear-gradient(top,#aed69d 0%,#9bbd8c 100%);
+	background: -ms-linear-gradient(top,#aed69d 0%,#9bbd8c 100%);
+	background: linear-gradient(to bottom,#aed69d 0%,#9bbd8c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaed69d',endColorstr='#ff9bbd8c',GradientType=0);
+	border: 1px solid #7dc864;	
+	border-bottom-color: #7dc864;
+}
+body .cs-button-disabled.cs-button-color-green:hover span.caption{
+	color: #edfdbb;
+	cursor: default;
+	border: 1px solid #7dc864;	
+	border-bottom-color: #7dc864;
+}
+body .cs-button-dark-disabled span.caption{
+	background-color: #e04c4c;
+	background: -webkit-linear-gradient(top, #f07d7d, #e04c4c);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f07d7d), color-stop(1, #e04c4c));
+	background: -moz-linear-gradient(top, #f07d7d, #e04c4c);
+	background: -o-linear-gradient(top, #f07d7d, #e04c4c);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f07d7d, EndColorStr=#e04c4c)";
+	background: linear-gradient(top, #f07d7d, #e04c4c);
+	text-shadow: 0 1px 1px rgba(255,255,255,.5);
+	color: #ca1a1d;
+	border-color: #c13336;
+}
+body .cs-button-dark-disabled:hover span.caption{
+	border-color: #c13336;
+}
+body .cs-button-green-inactive span.caption{
+	color: #3f5327;
+	cursor: default;
+	background: none #d7edb9;
+}
+body .cs-button span.caption-with-icon{
+	padding-left: 45px;
+}
+body .cs-button-size-mini span.caption-with-icon{
+	padding-left: 20px;
+}
+body .cs-button-size-small span.caption-with-icon{
+	padding-left: 32px;
+}
+body .cs-button-size-29 span.caption-with-icon{
+	padding-left: 36px;
+}
+body .cs-button-size-small-icon span.caption-with-icon{
+	padding-left: 32px;
+}
+body .cs-button-size-big span.caption-with-icon{
+	padding-left:  55px;
+}
+body .cs-button-size-larger span.caption-with-icon{
+	padding-left:  55px;
+}
+body .cs-button span.caption-with-icon-mirror{
+	padding-right: 39px;
+	padding-left: 20px;
+}
+body .cs-button-size-table-small span.caption-with-icon-mirror{
+	padding-right: 20px;
+	padding-left: 8px;
+}
+body .cs-button-size-small-icon span.caption-with-icon-mirror{
+	padding-right: 25px;
+	padding-left: 8px;
+}
+body .cs-button span.caption-with-icon span.caption-icon{
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	top: 1px;
+	left: 8px;
+	z-index: 1;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+body .cs-button-size-29 span.caption-with-icon span.caption-icon{
+	height: 25px;
+	width: 25px;
+	top: 1px;
+	left: 8px;
+}
+body .cs-button-size-small-icon span.caption-with-icon span.caption-icon{
+	height: 16px;
+	width: 16px;
+	top: 4px;
+	left: 2px;
+}
+body .cs-button-size-table-small span.caption-with-icon span.caption-icon{
+	height: 16px;
+	width: 16px;
+	top: 2px;
+	left: 2px;
+}
+body .cs-button-size-small span.caption-with-icon span.caption-icon{
+	height: 21px;
+	width: 20px;
+	position: absolute;
+	top: 1px;
+	left: 8px;
+	z-index: 1;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+body .cs-button-size-mini span.caption-with-icon span.caption-icon{
+	height: 16px;
+	width: 16px;
+	top: 2px;
+	left: 2px;
+}
+body .cs-button-size-big span.caption-with-icon span.caption-icon{
+	height: 28px;
+	width: 28px;
+	top: 9px;
+	left: 15px;
+}
+body .cs-button-size-larger span.caption-with-icon span.caption-icon{
+	top: 3px;
+	left: 15px;
+}
+body .cs-button span.caption-with-icon-mirror span.caption-icon{
+	right: 7px;
+	left: auto;
+}
+body .cs-button-size-small span.caption-with-icon-mirror span.caption-icon{
+	right: 7px;
+	left: auto;
+}
+body .cs-button-size-small-icon span.caption-with-icon-mirror span.caption-icon{
+	right: 5px;
+	left: auto;
+}
+body .cs-button-size-table-small span.caption-with-icon-mirror span.caption-icon{
+	right: 4px;
+	left: auto;
+}
+body .cs-button span.caption-with-arrow {
+	padding-left: 30px;
+}
+body .cs-button span.caption-with-arrow span.caption-arrow{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	z-index: 2;
+	background: url(../images/components/cs-component-icons.png) 0px -16px transparent no-repeat;
+}
+
+body .cs-button-small{
+	height: 20px;
+}
+body .cs-button-small span.caption{
+	padding: 0px 7px 0px 7px;
+	height: 20px;
+	line-height: 19px;
+}
+body .cs-button-small:hover{
+	border-color: #484848;
+}
+
+body .cs-button-megaphone {
+  margin-left: 5px;
+}
+
+body .cs-button-megaphone .caption-text {
+  margin-left: -20px;
+}
+
+body .cs-button-megaphone .caption-icon {
+  margin-left: 2px;
+}
+
+body .cs-button-icon-only .caption-text{
+	margin-left: -20px;
+}
+body .cs-button-icon-only span.caption-with-icon{
+	padding-left: 19px;
+}
+body .cs-button-icon-only span.caption-with-icon span.caption-icon{
+	left: 6px;
+}
+body .cs-button-no-click span.caption {
+	cursor: default;
+}
+body .cs-button-no-click:hover span.caption {
+	border-color: #999999;
+}
+
+/*-----------------------------------------------------------------------------------------
+		QTIP TOOLTIP
+------------------------------------------------------------------------------------------*/
+body .cs-title-qtip .qtip-contentWrapper{
+	
+}
+body .cs-title-qtip .qtip-content{
+	background-color: #000000;
+	background-color: rgba(0,0,0,0.86);
+	color: #ffffff;
+	font-size: 11px;
+}
+body .cs-title-qtip .qtip-tip{
+	background: url(../images/title-qtip-pointer.png) 0 0 transparent no-repeat;
+}
+body .cs-hidden-tip-text{
+	display: none;
+}
+/*-----------------------------------------------------------------------------------------
+		INPUT DATER
+------------------------------------------------------------------------------------------*/
+body .cs-dater-field {
+	border: 1px solid #CCCCCC;
+    font-size: 13px;
+    margin: 0;
+	background: #fff;
+	color: #333333;
+	margin-bottom: 8px;
+	display:inline-block;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1) inset;
+	position: relative;
+}
+
+body .cs-dater-light-grey {
+    padding: 1px 2px; 
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,.1)!important;
+	-moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,.1)!important;
+	-webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,.1)!important;
+    color: #666;
+}
+
+body .cs-dater-light-grey .dater-wrapper {
+    padding-right: 7px!important;
+}
+
+body .cs-dater-field .dater-wrapper-input {
+	position:absolute;
+	visibility:hidden;
+	top: -2px;
+	left: -1px;
+	margin-bottom: 0px;
+	padding-bottom: 11px;
+}
+
+body .cs-dater-field:hover {
+	border: 1px solid #aaaaaa;
+}
+
+body .cs-dater-field .dater-wrapper {
+	display:block;
+	padding:7px 2px 6px 7px;
+	float:left;
+	min-width: 73px;
+	min-height: 18px;
+}
+
+body .cs-dater-field .timer-wrapper {
+	display:block;
+	padding:7px 10px 8px 10px;
+	border-left:#ccc solid 1px;
+	float:right;
+}
+
+body .cs-dater-field .grey-text {
+    color:#666666;
+}
+
+body .cs-dater-field .cb {
+	clear:both;	
+}
+
+/*-----------------------------------------------------------------------------------------
+		INPUT MAX FIELD
+------------------------------------------------------------------------------------------*/
+body .cs-fieldmax-box {
+	background: url(../images/components/cs-tick.png) no-repeat top left;
+	width:16px;
+	height:16px;
+	position:absolute;
+	z-index:9999;
+	display:inline-block;
+	margin-top:8px;
+	margin-left:10px;
+}
+
+body .cs-fieldmax-box-positive {
+	background: url(../images/components/cs-tick.png) no-repeat top left!important;	
+}
+
+body .cs-fieldmax-box-negative {
+	background: url(../images/components/cs-cross.png) no-repeat top left!important;	
+}
+
+body .cs-field-length-count-outer{
+	position: relative;
+	display: inline-block;
+	margin-bottom: 8px;
+}
+body .cs-field-length-count-outer .cs-input-field-design{
+	margin-bottom: 0px;
+}
+body .cs-field-length-count {
+	color: #999;
+	font-size: 12px;
+	display: inline-block;
+	text-align: right;
+	right: 8px;
+	bottom: 8px;
+	position: absolute;
+}
+
+body .cs-field-cross {
+   
+    cursor: pointer;
+    display: inline-block;
+    height: 21px;
+    margin-bottom: -6px;
+    margin-left: -27px;
+    position: relative;
+    text-align: right;
+    width: 21px;
+}
+/*
+body .cs-field-cross {
+    background-color: #AAAAAA;
+    cursor: pointer;
+    display: inline-block;
+    height: 21px;
+    position: absolute;
+    right: 6px;
+    text-align: right;
+    top: 6px;
+    width: 21px;
+}
+*/
+
+body .cs-field-cross span{
+	display: inline-block;
+	background: url(../images/components/cs-component-icons.png) -96px -30px transparent no-repeat;
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+}
+body .cs-field-cross:hover {
+
+}
+body .cs-field-cross:hover span{
+	background-position: -96px -48px;
+
+}
+body .cs-field-length-count-positive {
+	color: #999 !important;
+}
+body .cs-field-length-count-negative {
+	color: #e54040 !important;	
+}
+
+/*-----------------------------------------------------------------------------------------
+	AUTOCOMPLETE
+------------------------------------------------------------------------------------------*/
+body .cs-autocomplete-input {
+	
+}
+body .cs-autocomplete-input-set {
+	background-color: #f0f0f0 !important; 
+}
+body .cs-autocomplete-results {
+	padding: 0px;
+	overflow: hidden;
+	z-index: 2110;
+	font-weight: normal; 
+	background-color: white; 
+	border: 1px solid #666666; 
+	border-bottom-width: 2px;
+	display: none;
+}
+body .cs-autocomplete-placeholder-outer{
+	padding: 0px;
+	margin:0px;
+	position:relative;
+	display:inline-block;
+}
+body .cs-autocomplete-placeholder-inner{
+	color: #AAAAAA;
+    left: 10px;
+    position: absolute;
+    top: 7px;
+	display:inline-block;
+    z-index: 5;
+}
+body .cs-autocomplete-placeholder-outer-size-larger .cs-autocomplete-placeholder-inner{
+    top: 9px;
+	left: 15px;
+}
+body .cs-autocomplete-results div.full-list{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	position:relative;
+	display:block;
+	list-style-type: none;
+	overflow:hidden;
+}
+
+body .cs-autocomplete-results iframe {
+	display:none;/*sorry for IE5*/
+	display/**/:block;/*sorry for IE5*/
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	filter:mask();
+	width:3000px;
+	height:3000px;
+}
+
+body .cs-autocomplete-results div.full-list div{
+	margin: 0px;
+	padding: 4px 5px;
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	border-color:transparent;
+	cursor:pointer;
+	position:relative;
+	background-color:white;
+}
+
+.ac_loading {
+	background : Window url('./indicator.gif') right center no-repeat;
+}
+
+body .cs-autocomplete-results div.full-list div.ac_over {
+	color: #000000;
+	background-color: #f0f7ec;
+	border-color: #f0f7ec;
+}
+
+
+/*-----------------------------------------------------------------------------------------
+		INPUT FIELD
+------------------------------------------------------------------------------------------*/
+body .cs-input-field{
+	
+}
+body .cs-input-field-design{
+	border: 1px solid #CCCCCC;
+    font-size: 13px;
+    margin: 0;
+	padding: 8px;
+	padding-top: 7px;
+	background: #fff;
+	color: #333333;
+	margin-bottom: 8px;
+}
+body .cs-input-field-color-light{
+	border: 1px solid #d4d4d4;
+	background: #fff;
+	color: #636363;
+}
+body .cs-input-field-color-light-salad{
+	border: 1px solid #87cd85;
+	background: #fff;
+	color: #636363;
+}
+body .cs-input-field-color-form{
+	border: 1px solid #d2d2d2;
+	background: #eee;
+	color: #636363;
+}
+body .cs-input-field-color-light-pink{
+	border: 1px solid #f5ecec;
+	background: #fff;
+	padding-left: 15px;
+	font-size: 14px;
+}
+
+body .cs-input-field-color-light-green{
+	border: 1px solid #669966;
+	color: #669966;
+	background: #fff;
+}
+body .cs-input-field-color-light-pink.cs-input-field-design-default-text{
+	
+}
+body .cs-input-field-color-code{
+	border: 1px solid #d4d4d4;
+	background: #fff;
+	color: #4a6b48;
+	font-family: 'courier new', arial; 
+	font-size: 11px; 
+	background-color: #f9f9f9;
+}
+body .cs-input-field-size-larger{
+    font-size: 13px;
+    margin: 0;
+	padding: 10px;
+	padding-top: 9px;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 20px;
+}
+body textarea.cs-input-field-design{
+	height: 53px;
+}
+body textarea.cs-input-field-size-larger{
+	height: 95px;
+}
+body .cs-input-field-design:hover{
+	border: 1px solid #aaaaaa;
+}
+body .cs-autocomplete-placeholder-outer:hover .cs-input-field-design {
+    border: 1px solid #aaaaaa;
+}
+body .cs-input-field-design-hover{
+	border: 1px solid #aaaaaa;
+}
+body .cs-input-field-design-focused{
+	border-color: #aaaaaa !important;
+}
+body #csSearchInput.cs-input-field-design-focused {
+	border: none !important;
+}
+body .cs-input-field-design-default-text{
+	color: #aaaaaa;
+}
+body .cs-input-field-color-light.cs-input-field-design-default-text{
+	font-style: italic;
+}
+body .cs-input-field-design-disabled{
+	background-color: #f7f7f7;
+	color: #b7b7b7;
+	border: 1px solid #d5d5d5 !important;
+}
+body .cs-input-field-design-crop-right{
+	border-right-width: 0px;
+}
+body .cs-input-field-design-crop-left{
+	border-left-width: 0px;
+}
+body .cs-input-field-design-crop-right:hover{
+	border-right-width: 0px;
+}
+body .cs-input-field-design-crop-right:hover{
+	border-right-width: 0px !important;
+}
+body .cs-input-field-design-crop-left:hover{
+	border-left-width: 0px;
+}
+body .cs-input-field-design-crop-left:hover{
+	border-left-width: 0px !important;
+}
+
+/*-----------------------------------------------------------------------------------------
+		TIP
+------------------------------------------------------------------------------------------*/
+body div.cs-tip{
+	height: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 100;
+}
+body div.cs-tip div.cs-tip-container{
+	border: 1px solid #999999;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: white;
+}
+body div.cs-tip div.cs-tip-container div.cs-tip-loader{
+	height: 50px;
+	background: url(../images/components/ajax-loader-horizontal-small.gif) center center no-repeat transparent;
+}
+body div.cs-tip div.cs-tip-container div.tip-arrow{
+	background-image: url(../images/icons.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	position: absolute;
+}
+body div.cs-tip div.cs-tip-container div.tip-arrow-top{
+	width: 20px;
+	height: 11px;
+	background-position: -149px 0px;
+	top: -11px;
+}
+body div.cs-tip div.cs-tip-container div.tip-arrow-bottom{
+	width: 11px;
+	height: 7px;
+	background-position: -78px -63px;
+	bottom: -7px;
+}
+body div.cs-tip div.cs-tip-container div.tip-arrow-left{
+	width: 7px;
+	height: 11px;
+	background-position: -71px -56px;
+	left: -7px;
+}
+body div.cs-tip div.cs-tip-container div.tip-arrow-right{
+	width: 7px;
+	height: 11px;
+	background-position: -89px -56px;
+	right: -7px;
+}
+body div.cs-tip div.cs-tip-container div.tip-layout{
+	padding: 10px;
+}
+body div.cs-tip div.cs-tip-container div.tip-footer{
+	padding: 0px 10px 10px 10px;
+}
+body div.cs-tip div.cs-tip-container div.tip-layout2{
+	padding: 20px;
+}
+body div.cs-tip div.cs-tip-container div.tip-footer2{
+	padding: 0px 20px 20px 20px;
+}
+body div.cs-tip div.cs-tip-container div.tip-list-layout{
+	padding: 5px 0px;
+}
+body div.cs-tip div.cs-tip-container div.tip-list-layout div.list-title2{
+	padding: 1px 10px 6px 10px;
+	color: #777777;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 3px;
+}
+body div.cs-tip div.cs-tip-container ul.list1{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+body div.cs-tip div.cs-tip-container ul.list1 li{
+	padding: 0px;
+	margin: 0px;
+	padding: 3px 9px;
+	cursor: pointer;
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+	border-color: transparent;
+}
+body div.cs-tip div.cs-tip-container ul.list1 li:hover{
+	background-color: #666666;
+	border-top-color: #333333;
+	border-bottom-color: #444444;
+}
+body div.cs-tip div.cs-tip-container ul.list1 li div.list-image{
+	float: left;
+}
+body div.cs-tip div.cs-tip-container ul.list1 li div.list-image img{
+	width: 20px;
+	height: 20px;
+}
+body div.cs-tip div.cs-tip-container ul.list1 li div.list-content{
+	margin-left: 27px;
+	font-weight: bold;
+	padding-top: 3px;
+}
+body div.cs-tip div.cs-tip-container ul.list1 li:hover div.list-content{
+	color: white;
+}
+body div.cs-tip div.cs-tip-container ul.list2{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+body div.cs-tip div.cs-tip-container ul.list2 li{
+	padding: 0px;
+	margin: 0px;
+	padding: 3px 12px 3px 9px;
+	cursor: pointer;
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+	border-color: transparent;
+}
+body div.cs-tip div.cs-tip-container ul.list2 li.selected{
+	font-weight: bold;
+}
+body div.cs-tip div.cs-tip-container ul.list2 li:hover{
+	background-color: #666666;
+	border-top-color: #333333;
+	border-bottom-color: #444444;
+}
+body div.cs-tip div.cs-tip-container ul.list2 li div.list-image{
+	float: left;
+}
+body div.cs-tip div.cs-tip-container ul.list2 li div.list-image img{
+	width: 16px;
+	height: 16px;
+}
+body div.cs-tip div.cs-tip-container ul.list2 li div.list-content{
+	margin-left: 20px;
+	padding-top: 1px;
+}
+body div.cs-tip div.cs-tip-container ul.list2 li:hover div.list-content{
+	color: white;
+}
+body div.cs-tip div.cs-tip-container ul.list3{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+body div.cs-tip div.cs-tip-container ul.list3 li{
+	padding: 0px;
+	margin: 0px;
+	padding: 3px 9px;
+	cursor: pointer;
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+	border-color: transparent;
+}
+body div.cs-tip div.cs-tip-container ul.list3 li:hover{
+	background-color: #666666;
+	border-top-color: #333333;
+	border-bottom-color: #444444;
+}
+body div.cs-tip div.cs-tip-container ul.list3 li div.list-image{
+	float: left;
+}
+body div.cs-tip div.cs-tip-container ul.list3 li div.list-image img{
+	width: 16px;
+	height: 16px;
+}
+body div.cs-tip div.cs-tip-container ul.list3 li div.list-content{
+	margin-left: 25px;
+	padding-top: 1px;
+}
+body div.cs-tip div.cs-tip-container ul.list3 li:hover div.list-content{
+	color: white;
+}
+body div.cs-tip div.cs-tip-container div.images-block{
+	display: block;
+	margin-bottom: 5px;
+}
+body div.cs-tip div.cs-tip-container div.images-block .title{
+	display: block;
+}
+body div.cs-tip div.cs-tip-container div.images-block a{
+	display: block;
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin-right: 2px;
+}
+body div.cs-tip div.cs-tip-container div.images-block a img{
+	display: block;
+	height: 30px;
+	width: 30px;
+}
+
+
+/*-----------------------------------------------------------------------------------------
+		POPUP
+------------------------------------------------------------------------------------------*/
+body div.cs-popup{
+	height: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 110;
+}
+body div.cs-popup div.error{
+	display: none;
+    background-color: #ca0f00;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+}
+body div.cs-popup div.popup-document-shadow{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background-color: #000000;
+}
+body div.cs-popup div.popup-window{
+	margin: 0 auto;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+body div.cs-popup div.popup-window div.popup-shadow{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #555555;
+	z-index: 0;
+}
+body div.cs-popup div.popup-window div.popup-window-inside{
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-loader{
+	padding: 20px;
+	color: #888888;
+	font-size: 20px;
+	text-align: center;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-process{
+	padding: 20px;
+	color: #888888;
+	font-size: 20px;
+	text-align: center;
+    line-height: 27px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content{
+	
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.video{
+	background-color: black;
+	position: relative;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.video span.cross{
+	position: absolute;
+	top: 0px;
+	right: -37px;
+	background-color: black;
+	cursor: pointer;
+	z-index: 20;
+	height: 37px;
+	width: 37px;
+    background: #000;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.video span.cross span{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	width: 21px;
+	height: 21px;
+	background: url(../images/icons.png) -82px -87px transparent no-repeat;
+	cursor: pointer;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.video span.cross span:hover{
+	background-position: -82px -66px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.video a.mediaSwitch {
+	display: block;
+	width: 26px;
+	height: 45px;
+	position: absolute;
+	top: 50%;
+	margin-top: -23px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	cursor:pointer;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.video:hover a.mediaSwitch {
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.video a.mediaSwitch:hover {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.video a.mediaSwitch.prev {
+	left: 20px;
+	background: url(../images/icons.png) -55px -214px transparent no-repeat;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.video a.mediaSwitch.next {
+	right: 20px;
+	background: url(../images/icons.png) -29px -214px transparent no-repeat;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-header{
+	padding: 15px 20px;
+	padding-bottom: 14px;
+	padding-right:40px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 18px;
+    line-height: 26px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #f0f0f0;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-header h4.popup-title{
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-header div.popup-title-container {
+	display: inline-block;
+	width: 430px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-header-white{
+	padding: 20px 20px 8px 20px;
+	margin-bottom: 0px;
+	color: #333333;
+	font-weight: bold;
+	font-size: 16px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-header-yellow{
+	background-color: #FFF9B1;
+	border-bottom-width: 0px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-header-white span.cross{
+	position: absolute;
+	top: 17px;
+	right: 18px;
+	width: 21px;
+	height: 21px;
+	background: url(../images/icons.png) -82px -66px transparent no-repeat;
+	cursor: pointer;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-header-white span.cross:hover{
+	background-position: -82px -87px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content span.cross{
+	position: absolute;
+	top: 17px;
+	right: 18px;
+	width: 21px;
+	height: 21px;
+	background: url(../images/icons.png) -82px -66px transparent no-repeat;
+	cursor: pointer;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content span.cross:hover{
+	background-position: -82px -87px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-header span.cross{
+	position: absolute;
+	top: 17px;
+	right: 18px;
+	width: 21px;
+	height: 21px;
+	background: url(../images/icons.png) -82px -66px transparent no-repeat;
+	cursor: pointer;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-header span.cross:hover{
+	background-position: -82px -87px;
+}
+
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-error-layout{
+	background-color: #fff2db;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px;
+	color: #9c6300;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-inline-err{
+	padding: 20px;
+	color: #b31316;
+	font-weight: bold;
+	padding-bottom: 0px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-inline-ok{
+	padding: 10px;
+	border-bottom: 1px solid #dddddd;
+	background-color: #f5f5f5;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout{
+	padding: 20px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout-yellow{
+	background-color: #FFF9B1;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-autoclose-layout{
+	padding: 20px;
+	color: #444444;
+	font-size: 20px;
+	text-align: center;
+	line-height: 24px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.alert{
+	font-weight: bold; 
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout-alert{
+	font-weight: bold; 
+	text-align: center;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout2{
+	padding: 0px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3{
+	padding: 40px;
+	font-family: "Open Sans", arial, sans serif;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 h4{
+	font-family: 'Open Sans Condensed',sans-serif;
+	font-size: 27px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 > p{
+	margin-bottom: 10px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 table.form{
+	margin-left: 20px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 table.form span.star{
+	color: #ff0000;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 table.form tr td, body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 table.form tr th{
+	line-height: 18px;
+	font-size: 12px;
+	color: #000000;
+	font-family: "Open Sans", arial, sans serif;
+	vertical-align: top;
+	padding: 4px 0px 4px 0px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 table.form tr th{
+	padding-top: 9px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 table.form tr td.gap{
+	height: 10px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 .add-text{
+	color: #999999;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout3 .add-text a{
+	text-decoration: underline;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary-white{
+	padding: 10px 20px 10px 20px;
+	margin: -20px;
+	margin-bottom: 40px;
+	color: #444444;
+	font-weight: bold;	
+	position: relative;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary{
+	padding: 20px;
+	margin: -20px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 15px;
+	color: #444444;
+	font-weight: bold;	
+	position: relative;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout2 div.summary{
+	padding: 10px;
+	margin: 0px;	
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary ul.tabs {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	margin-bottom: -20px;
+} 
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout2 div.summary ul.tabs {
+	margin-bottom: -10px;
+}  
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary ul.tabs > li{
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	border: 1px solid transparent;
+	border-bottom-width: 0px;
+	height: 27px;
+} 
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary ul.tabs > li.selected{
+	background-color: white;
+	margin-bottom: -1px;
+	height: 28px;
+	border-color: #cccccc;
+	
+} 
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary ul.tabs > li > a, body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary > ul.tabs li > span{
+	display: inline-block;
+	padding: 7px 10px;
+	background-color: #d3d3d3;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+} 
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary ul.tabs > li:hover > a, body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary ul.tabs > li:hover > span{
+	background-color: #cccccc;
+} 
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary ul.tabs > li.selected > a, body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary ul.tabs > li.selected > span{
+	background-color: white;
+	border-color: #cccccc;
+	color: #333333;
+} 
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary span.desc{
+	font-weight: normal;
+} 
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.summary div.desc{
+	font-weight: normal;
+	padding-top: 5px;
+} 
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.field-block{
+	margin-bottom: 20px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.field-block-last{
+	margin-bottom: 0px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.field-block div.field-title {
+	margin-bottom: 6px;
+	color: #333;
+	font-size: 13px;
+	font-weight: bold;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-list-layout div.break {
+	height: 10px;
+	display: block;
+}
+body div.cs-popup div.popup-window div.added-field-title {
+	margin-bottom: 6px;
+	color: #333;
+	font-size: 13px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.field-block div.field-title .field-desc{
+	font-size: 13px;
+	font-weight: normal;
+}
+
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout div.field-block div.field-error{
+	margin-bottom: 4px;
+	color: #ff9900;
+	font-size: 11px;
+	font-weight: bold;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout ul.field-checkboxes{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout ul.field-checkboxes li{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #444444;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content  ul.selectable{
+	padding: 0px;
+	margin: 0px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content  ul.selectable li{
+	padding: 0px;
+	margin: 0px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content  ul.selectable li a{
+	display: block;
+	font-size: 13px;
+	color: #333333;
+	text-decoration: none;
+	padding: 7px 20px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content  ul.selectable li a span.light{
+	color: #999999;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content  ul.selectable li a:hover{
+	 background-color: #E54040;
+	 color: white;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content  ul.selectable li a:hover span.light{
+	 color: #f5bbbc;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout textarea:not(.inner){
+	width: 442px;
+	border: 1px solid #CCC;
+	font-size: 13px;
+	margin: 0;
+	padding: 8px;
+	padding-top: 7px 7px 26px 7px;
+	background: white;
+	color: #333;
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-layout textarea:not(.inner):hover{
+	border: 1px solid #AAA;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-footer{
+	padding: 20px;
+	padding-top: 0px;
+	text-align: left;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-footer-white{
+	padding: 10px;
+	text-align: left;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-footer ul.policies{
+	display: block;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+	color: #666666;
+	text-align: left;
+	margin-top: 15px;
+	position: relative;
+	left: -7px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-footer ul.policies li{
+	display: inline;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+body div.cs-popup div.popup-window div.popup-window-inside div.popup-content div.popup-footer ul.policies li a{
+	color: #666666;
+	text-decoration: none;
+}
+/*-----------------------------------------------------------------------------------------
+		SLIDE PANEL
+------------------------------------------------------------------------------------------*/
+body div.cs-slide-panel{
+	position: absolute;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	top: 0px;
+	margin: 0 auto;
+	z-index: 111;
+    border:#eee solid 1px;
+	padding: 25px 17px 27px 17px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: 400;
+    color: #4f4f4f;
+    display: block
+}
+body div.cs-slide-panel div.slide-panel-window {
+	position: relative;
+}
+body div.cs-slide-panel div.slide-panel-window div.slide-panel-window-inside {
+	display: inline-block;
+}
+body div.cs-slide-panel div.slide-panel-window div.slide-panel-window-inside.centered-text {
+	width: 100%;
+	text-align: center;
+}
+body div.cs-slide-panel div.slide-panel-window div.slide-panel-close {
+	cursor: pointer;
+	position: absolute;
+	top: -22px;
+	right: -14px;
+    width: 36px;
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+}
+body div.cs-slide-panel div.slide-panel-window div.slide-panel-close:before {
+    content: "\00d7";
+}
+body div.cs-slide-panel div.slide-panel-window div.slide-panel-content {
+    font-size: 24px;
+    line-height: 28px;
+}
+body div.cs-slide-panel #csSliderButton {
+	height: auto;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	margin-left: 17px;
+}
+/*-----------------------------------------------------------------------------------------
+		CHECKBOX
+------------------------------------------------------------------------------------------*/
+body .cs-checkbox{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #cccccc;
+	background-color: #fff;
+	height: 14px;
+	width: 14px;
+	cursor: pointer;
+	line-height: 14px;
+}
+body .cs-checkbox-disabled{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #d7d7d7;
+	height: 14px;
+	width: 14px;
+	background: url(../images/components/cs-component-bgs.gif) no-repeat scroll 0 0 #F3F3F3;
+	cursor: pointer;
+	line-height: 14px;
+}
+
+body .cs-checkbox:hover{
+	border: 1px solid #484848;
+}
+body .cs-checkbox-disabled:hover{
+	border: 1px solid #d7d7d7;
+	cursor: default;
+}
+body .cs-checkbox span.dumb-text{
+	visibility: hidden;
+}
+body .cs-checkbox input[type="checkbox"]{
+	display: none;
+}
+
+body .cs-checkbox span.tick{
+	background-image: url(../images/components/cs-component-icons.png);
+    background-position: -49px -1px;
+    background-repeat: no-repeat;
+    height: 14px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 12px;
+	display: none;
+}
+body .cs-checkbox-disabled span.tick{
+	background-image: url(../images/components/cs-component-icons.png);
+    background-position: -49px -17px;
+    background-repeat: no-repeat;
+    height: 14px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 12px;
+	display: none;
+}
+body .cs-checkbox-checked span.tick{
+	display: block;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------
+		CHECKBOX
+------------------------------------------------------------------------------------------*/
+body .cs-radio{
+	position: relative;
+	display: inline-block;
+	border: 1px solid #bbbbbb;
+	height: 16px;
+	width: 16px;
+	background-color: #fff;
+	cursor: pointer;
+	line-height: 16px;
+}
+body .cs-radio:hover{
+	border: 1px solid #999999;
+}
+body .cs-radio span.dumb-text{
+	visibility: hidden;
+}
+body .cs-radio input[type="radio"]{
+	display: none;
+}
+body .cs-radio span.tick{
+    background-color: #647690;
+    height: 8px;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    width: 8px;
+	display: none;
+}
+body .cs-radio-checked span.tick{
+	display: block;
+}
+
+/*-----------------------------------------------------------------------------------------
+		NOTIFICATOR
+------------------------------------------------------------------------------------------*/
+body .cs-notificator{
+	position: relative;
+}
+body #top .panel .cs-notificator-alert span.icon{
+	background-position: -41px -14px;
+}
+body #top .panel .cs-notificator-alert span.icon span.num{
+	display: block;
+}
+
+/*-----------------------------------------------------------------------------------------
+		FEED ITEM MAKER
+------------------------------------------------------------------------------------------*/
+body div.cs-feed-maker{
+	display: block;
+	font-family: "Open Sans", arial, sans serif;
+}
+body div.cs-feed-maker-size-small{
+	margin-bottom: 15px;
+}
+body div.cs-feed-maker div.default-view{
+	position: relative;
+	display: none;
+}
+body div.cs-feed-maker-default div.default-view{
+	display: block;
+}
+body div.cs-feed-maker div.default-view div.default-text{
+	display: block;
+	z-index: 0;
+	position: relative;
+	cursor: text;
+	background: #fff;
+    border: 1px solid #d0c0bc;
+    color: #aaaaaa;
+    display: block;
+    font-size: 13px;
+    outline: 0 none;
+    padding: 9px 11px;
+    width: auto;
+	vertical-align: middle;
+	outline: 0 none;
+	box-shadow: inset 1px 2px 2px rgba(0,0,0,.22);
+	-moz-box-shadow: inset 1px 2px 2px rgba(0,0,0,.22);
+	-webkit-box-shadow: inset 1px 2px 2px rgba(0,0,0,.22);
+	font-style: italic;
+	font-family: Arial, sans-serif;
+}
+body div.cs-feed-maker-size-small div.default-view div.default-text{
+	width: auto;
+	color: #aaaaaa;
+    font-size: 12px;
+    background: #fff;
+    padding: 6px;
+    outline: 0;
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 0px;
+	vertical-align: middle;
+	line-height: 15px;
+}
+body div.cs-feed-maker div.default-view div.default-text:hover{
+	border-color: #bbbbbb;
+	z-index: 2;
+}
+body div.cs-feed-maker div.default-view div.default-buttons{
+	top: 0px;
+	right: 0px;
+	position: absolute;
+}
+body div.cs-feed-maker div.input-style{
+	box-shadow: inset 2px 3px 2px rgba(0,0,0,.22);
+	-moz-box-shadow: inset 2px 3px 2px rgba(0,0,0,.22);
+	-webkit-box-shadow: inset 2px 3px 2px rgba(0,0,0,.22);
+	display: block;
+	background-color: #ffffff;
+	margin-bottom: 4px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+body div.cs-feed-maker-default div.input-style{
+	display: none;
+}
+body div.cs-feed-maker-default ul.cs-feed-maker-blocks{
+	display: none;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block div.cross{
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 9px;
+	height: 9px;
+	background: url(../images/components/cs-component-icons.png) -87px -30px transparent no-repeat;
+	z-index: 1;
+	cursor: pointer;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block div.cross:hover{
+	background-position: -87px -39px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-text{
+	display: block;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-text div.cross{
+	top: 12px;
+	right: 12px;
+}
+body div.cs-feed-maker-size-small ul.cs-feed-maker-blocks li.cs-feed-maker-block-text div.cross{
+	top: 10px;
+	right: 10px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-text textarea{
+    color: #333;
+    font-size: 13px;
+    background-color: transparent;
+    padding: 10px;
+	padding-right: 30px;
+    width: 560px;
+    outline: 0;
+    border: 1px solid #d0c0bc;
+    display: block;
+    margin-bottom: 0px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+    box-sizing: border-box;         /* For IE and modern versions of Chrome */
+    -moz-box-sizing: border-box;    /* For Firefox                          */
+    -webkit-box-sizing: border-box;
+}
+body div.cs-feed-maker-size-small ul.cs-feed-maker-blocks li.cs-feed-maker-block-text textarea{
+    color: #333;
+    font-size: 12px;
+    background: #fff;
+    padding: 6px;
+	padding-right: 30px;
+    width: 362px;
+    outline: 0;
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 8px;
+	line-height: 15px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-text textarea.default{
+	color: #999999;
+	font-style: italic;
+	font-family: Arial, sans-serif;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images{
+	border: 1px solid #d0c0bc;
+	padding: 5px;
+	border-top-width: 0px;
+	background-color: #f9f4f4;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.add-image{
+	width: 27px;
+	height: 48px;
+	border: 1px solid #e5e5e5;
+	border-right-width: 0px;
+	position: relative;
+	display: block;
+	padding: 4px;
+	float: left;
+	background-color: white;
+	cursor: pointer;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.add-image div.add-image-border{
+	position: absolute;
+	top: -1px;
+	right: 0px;
+	height: 58px;
+	width: 3px;
+	background: url(../images/components/cs-component-icons.png) -110px 0px transparent no-repeat;
+	z-index: 1;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.add-image div.add-image-icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 13px;
+	width: 13px;
+	background: url(../images/components/cs-component-icons.png) -74px -30px transparent no-repeat;
+	z-index: 2;
+	margin-top: -6px;
+	margin-left: -7px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.add-image:hover{
+	border-color: #999999;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.add-image:hover div.add-image-border{
+	background-position: -113px 0px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.add-image:hover div.add-image-icon{
+	background-position: -74px -43px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.add-image-icon{
+	
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.images-container{
+	display: block;
+	padding-right: 10px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.image-container{
+	border: 1px solid #e5e5e5;
+	padding: 4px;
+	background-color: white;
+	margin-right: 5px;
+	position: relative;
+	float: left;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.image-container div.image-cross{
+	background: url(../images/components/cs-component-icons.png) 0px -39px #606060 no-repeat;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	width: 7px;
+	height: 7px;
+	z-index: 1;
+	cursor: pointer;
+	border: 3px solid #606060;
+	display: none;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.image-container:hover{
+	border: 1px solid #999999;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-images div.image-container:hover div.image-cross{
+	display: block;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-video{
+	border-top-width: 0px;
+    border: 1px solid #D0C0BC;
+    border-top-width: 0px;
+    background-color: #F9F4F4;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-video div.video-preview{
+	display: table;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-video div.video-preview img{
+	padding: 3px;
+	float: left;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-video div.video-preview div.video-info{
+	margin-left: 140px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-video div.video-preview div.video-info a{
+	color: #666666;
+    font-size: 18px;
+    line-height: 24px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-privacy {
+    position: relative;
+    border: #d0c0bc solid 1px;
+	border-top-width: 0px;
+    padding: 7px 10px;
+    margin: 0px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-privacy div.loader{
+	position: absolute;
+	z-index: 1;
+	background-color: #ffffff;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-file{
+	position: relative;
+	min-height: 24px;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-file div.name{
+	border: 1px solid #D0C0BC;
+	border-top-width: 0px;
+	background-color: #FAF5F5;
+	padding: 7px;
+	padding-left: 10px;
+	font-size: 12px;
+	color: #666666;
+}
+body div.cs-feed-maker ul.cs-feed-maker-blocks li.cs-feed-maker-block-file div.loader{
+	position: absolute;
+	z-index: 1;
+	background-color: #f9f4f4;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+	vertical-align: middle;
+    border: 1px solid #d0c0bc;
+	border-top-width: 0px;
+	background-color: #f9f4f4;
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px;
+}
+body div.cs-feed-maker div.cs-feed-maker-functions{
+	display: block;
+	margin-bottom: -5px;
+}
+body div.cs-feed-maker-default div.cs-feed-maker-functions{
+	display: none;
+}
+body div.cs-feed-maker div.cs-feed-maker-functions-right{
+	float: right;
+}
+body div.cs-feed-maker div.cs-feed-maker-functions-right span.cs-feed-maker-publicity-select{
+	margin-right: 5px;
+	display: none;
+}
+body div.cs-feed-maker div.cs-feed-maker-functions-right span.cs-feed-maker-publicity-select span.caption{
+	font-weight: normal;
+	color: #666666;
+	padding-left: 46px;
+}
+body div.cs-feed-maker div.cs-feed-maker-functions-right span.cs-feed-maker-publicity-select span.caption span.caption-icon{
+	font-weight: normal;
+	color: #666666;
+}
+body div.cs-feed-maker div.cs-feed-maker-functions-right span.cs-dropdown-opened span.caption{
+	color: #ffffff;
+}
+body div.cs-feed-maker div.cs-feed-maker-functions-left{
+	float: left;
+}
+body div.cs-feed-maker span.permissions-text, body div.cs-feed-maker span.dropdown-tags-text{
+	margin-left: 10px;
+	margin-right: 2px;
+	color: #666666;
+	font-size: 14px;
+}
+body div.cs-feed-maker  div.add-button{
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 13px;
+	position: relative;
+	z-index: 1;
+	vertical-align: middle;
+	margin-left: 7px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-top: 8px;
+}
+body div.cs-feed-maker  div.add-bittons-title{
+	color: #666666;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: -3px;
+	float: left;
+	white-space: nowrap;
+	margin-top: 5px;
+}
+body div.cs-feed-maker div.custom-tags-wrapper .cs-message-autocomplete .background-text{
+	color: #999999;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	left: 11px;
+	font-weight: 300;
+	font-size: 13px;
+}
+body div.cs-feed-maker div.custom-tags-wrapper .cs-message-autocomplete .cs-message-autocomplete-bits{
+	border: 1px solid #D0C0BC;
+	border-top-width: 0px;
+	background-color: transparent;
+	-moz-border-radius-bottomleft: 0px; 
+	-moz-border-radius-topleft: 0px; 
+	-moz-border-radius-topright: 0px; 
+	-moz-border-radius-bottomright: 0px;
+	border-bottom-left-radius: 0px 0px;
+	border-bottom-right-radius: 0px 0px;
+	border-top-left-radius: 0px 0px;
+	border-top-right-radius: 0px 0px;
+	-webkit-border-bottom-left-radius: 0px 0px;
+	-webkit-border-bottom-right-radius: 0px 0px;
+	-webkit-border-top-left-radius: 0px 0px;
+	-webkit-border-top-right-radius: 0px 0px;
+}
+body div.cs-feed-maker div.custom-tags-wrapper .cs-message-autocomplete .cs-message-autocomplete-bits .cs-message-autocomplete-bit-editable-input{
+	padding-left: 7px;
+}
+body div.cs-feed-maker  span.custom-tags-wrapper {
+	display: block;
+}
+body div.cs-feed-maker  span.cs-feed-maker-tags-select {
+	margin-left: -5px;
+}
+body div.cs-feed-maker  span.cs-feed-maker-tags-select span.caption{
+	padding-right: 24px;
+}
+body div.cs-feed-maker  span.cs-feed-maker-tags-select span.caption-arrow{
+	background: url(../images/icons_redesign.png?u=2013-08-16) -34px -282px transparent no-repeat;
+	top: 5px;
+}
+body div.cs-feed-maker  span.cs-feed-maker-tags-select.cs-dropdown-opened span.caption-arrow{
+	background: url(../images/components/cs-component-icons.png) no-repeat scroll -32px 0 transparent;
+}
+body div.cs-feed-maker  span.cs-feed-maker-tags-select:hover span.caption-arrow{
+	background: url(../images/components/cs-component-icons.png) no-repeat scroll -32px 0 transparent;
+}
+
+body div.cs-feed-maker div.add-button span{
+	width: 15px;
+	height: 13px;
+	display: block;
+	background-image: url(../images/icons_redesign.png?u=2013-09-20);
+	background-repeat: no-repeat;
+	background-position: -92px -82px;
+	background-color: transparent;
+}
+body div.cs-feed-maker div.add-images-button{
+	
+}
+body div.cs-feed-maker div.add-images-button span{
+	background-position: -92px -82px;
+}
+body div.cs-feed-maker div.add-file-button{
+	
+}
+body div.cs-feed-maker div.add-file-button span{
+	background-position: -119px -82px;
+	width: 10px;
+}
+}
+body div.cs-feed-maker div.add-video-button{
+	width: 27px;
+}
+body div.cs-feed-maker div.add-video-button span{
+	background-position: -107px -82px;
+	width: 12px;
+}
+body div.cs-feed-maker div.add-button:hover{
+	z-index: 2;
+	border-color: #878787;
+	background-position: 0px -52px;
+}
+body div.cs-feed-maker div.updates-container {
+    padding: 10px;
+    border-bottom: #d1d0d0 solid 1px
+}
+body div.cs-feed-maker div.dashboard-button {
+    float: right;
+}
+body div.cs-feed-maker div.dashboard-button span {
+    width: 18px!important;
+    height: 18px!important;
+    position: relative;
+    top: -2px;
+}
+body div.cs-feed-maker div.dashboard-button.switch-update span {
+    background-position: -150px -66px;
+}
+body div.cs-feed-maker div.dashboard-button.switch-text span {
+    /*background-position: -191px -46px!important;*/
+    background-position: -150px -66px;
+}
+body div.cs-feed-maker div.dashboard-button.grey-update-icon span {
+    background-position: -191px -46px!important;
+}
+body span.cs-switcher{
+	color: #3B5998;
+	text-decoration: none;
+	cursor: pointer;
+}
+body span.cs-switcher:hover{
+	text-decoration: underline;
+}
+body span.cs-switcher.disabled{
+	color: #999999;
+}
+body span.cs-switcher.disabled:hover{
+	color: #999999;
+	text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------
+		MESSAGE AUTOCOMPLETE
+------------------------------------------------------------------------------------------*/
+/* 
+		This stylesheet belongs to cs-message-autocomplete - Copyright Guillermo Rauch <http://devthought.com> 2009 
+		cs-message-autocomplete is not priceless for commercial use. See <http://devthought.com/projects/jquery/cs-message-autocomplete/> 
+		Purchase to remove copyright
+*/
+
+body .cs-message-autocomplete { font-size: 12px; font-weight: bold; cursor: text; position: relative; font-family: "Open Sans", arial, sans serif;}
+body .cs-message-autocomplete .background-text { position: absolute; font-weight: normal; color: #aaaaaa; top: 7px; left: 9px; right: 9px; z-index: 15; overflow: hidden; white-space: nowrap; }
+body .cs-message-autocomplete-focused .background-text {display: none;}
+body .cs-message-autocomplete .background-text-hidden {display: none;}
+body .cs-message-autocomplete-bits { zoom: 1; overflow: hidden; margin: 0; padding: 2px 4px; border: 1px solid #cccccc; *padding-bottom: 3px; position: relative; z-index: 1; background-color: #fff;}
+body .cs-message-autocomplete-size-larger .cs-message-autocomplete-bits { padding: 1px 2px 1px 2px; border: 1px solid #d4d4d4;}
+body .cs-message-autocomplete-color-light .cs-message-autocomplete-bits { border: 1px solid #d4d4d4;}
+body .cs-message-autocomplete-bit { list-style-type: none; float: left; display: block; padding: 0; margin: 2px 5px 2px 0; cursor: default; }
+body .cs-message-autocomplete-size-larger .cs-message-autocomplete-bit {  margin: 1px 2px 1px 0;  }
+body .cs-message-autocomplete-focused .cs-message-autocomplete-bits {border-color: #aaaaaa;}
+body .cs-message-autocomplete-bit-editable {  }
+body .cs-message-autocomplete-bit .cs-message-autocomplete-bit-editable-input { border: 0; font-size: 13px; line-height: 17px; padding: 3px 0px 3px 0px; background-color: transparent; margin: 0px; }
+body .cs-message-autocomplete-size-larger .cs-message-autocomplete-bit .cs-message-autocomplete-bit-editable-input { padding: 7px 0px 8px 0px; }
+body .cs-message-autocomplete-bit-editable-input:focus { outline: none; }
+body .cs-message-autocomplete-bit-box { position: relative; line-height: 16px; padding: 3px 6px 2px 6px; border: 1px solid #d5e0d0; background: #dee7da; cursor: default; color: #7c7c7c; font-weight: normal; font-size: 12px;}
+body .cs-message-autocomplete-bit-box.cs-strong-bit-box { background-color: #b3d284; color: #161b0f; }
+body .cs-message-autocomplete-color-light .cs-message-autocomplete-bit-box {border: 1px solid #e5e5e5; background: #f9f9f9; font-style: italic; color: #636363; font-weight: normal; }
+body .cs-message-autocomplete-size-larger .cs-message-autocomplete-bit-box {border: 1px solid #e5e5e5; padding: 6px 30px 7px 12px; background: #f9f9f9; font-style: italic; color: #636363; font-weight: normal; }
+body .cs-message-autocomplete-bit-box-deletable { padding-right: 18px; }
+body .cs-message-autocomplete-bit-box-deletebutton { position: absolute; right: 4px; top: 6px; display: block; width: 9px; height: 9px; font-size: 1px; background: url(../../images/icons.png?u=2013-11-28) no-repeat -55px -57px transparent; }
+body .cs-message-autocomplete-color-light .cs-message-autocomplete-bit-box-deletebutton {width: 9px; height: 9px; background: url(../../images/icons.png) no-repeat -85px -9px transparent; }
+body .cs-message-autocomplete-size-larger .cs-message-autocomplete-bit-box-deletebutton { right: 9px; top: 10px; }
+body .cs-message-autocomplete-bit-box-deletebutton:hover { border: none; background-position: -85px 0px; text-decoration: none; }
+body .cs-message-autocomplete-bit-box-hover {  }
+body .cs-message-autocomplete-bit-box-focused { border-color: #8b8b8b; background: #8b8b8b; color: #fff; }
+body .cs-message-autocomplete-bit-box-focused .cs-message-autocomplete-bit-box-deletebutton {  }
+body .cs-message-autocomplete-bit-box-single{float: none; margin-right: 0px; }
+body .cs-message-autocomplete:hover .cs-message-autocomplete-bits { border-color: #aaaaaa; }
+body .cs-message-autocomplete-fade-left { position: relative; }
+body .cs-message-autocomplete-fade-left:before { 
+	content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    bottom: 0px;
+	left: 0px;
+	width: 15px;
+	background: -moz-linear-gradient(left,#ffffff 0%,rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear,left top,right top,color-stop(0%,#ffffff),color-stop(100%,rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(left,#ffffff 0%,rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(left,#ffffff 0%,rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(left,#ffffff 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right,#ffffff 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#00ffffff',GradientType=1);
+}
+body .cs-message-autocomplete-icon.cs-message-autocomplete-fade-left:before {
+	left: 30px;
+}
+
+
+/*  cs-message-autocomplete Style guidelines 
+			This style doesn't necessarily have to be in a separate file. 
+			It's advisable not to set widths and margins from here, but instead apply it to a particular object or class (#id .cs-message-autocomplete { width: xxx } or .class .cs-message-autocomplete { width: xxx })
+			The padding-top + padding-left + height of ".cs-message-autocomplete-bit-editable-input {}" has to match the line-height of ".cs-message-autocomplete-bit-box {}" for UI consistency. 
+			The font configuration has to be present in .cs-message-autocomplete and .cs-message-autocomplete-bit-editable-input (for IE reasons)
+			The *padding-bottom (notice the *) property of .cs-message-autocomplete-bits {} has to be equal to the margin-bottom of .cs-message-autocomplete-bit {} for IE reasons.
+			The padding-top of .cs-message-autocomplete ul {} has to match the margin-bottom of .cs-message-autocomplete-bit, and the padding-bottom has to be null.
+			Make sure the border-width of the .cs-message-autocomplete-bit-editable {} is equal to the border-width of the box (a border that matches the background is advisable for the input)
+			Feel free to edit the borders, fonts, backgrounds and radius.		
+*/
+
+/* 
+		This stylesheet belongs to cs-message-autocomplete - Copyright Guillermo Rauch <http://devthought.com> 2009 
+		cs-message-autocomplete is not priceless for commercial use. See <http://devthought.com/projects/jquery/cs-message-autocomplete/> 
+		Purchase to remove copyright
+*/
+
+body .cs-message-autocomplete-autocomplete { position: absolute;z-index:25; }
+body .cs-message-autocomplete-autocomplete-placeholder, .cs-message-autocomplete-autocomplete-results { font-weight: normal; opacity: 0.9; filter: alpha(opacity=90); background: #fff; -webkit-box-shadow: 0 3px 3px #ccc; -moz-box-shadow: 0 3px 3px #ccc; box-shadow: 0 3px 3px #ccc; border: 1px solid #999; border-top: none; display: none; }
+body .cs-message-autocomplete-autocomplete-results img{ float: left; }
+body .cs-message-autocomplete-autocomplete-results div.cs-message-autocomplete-autocomplete-results-container{ font-weight: normal;}
+body .cs-message-autocomplete-autocomplete-results div.cs-message-autocomplete-autocomplete-results-container .fieldset-small{ font-size:9px;}
+body .cs-message-autocomplete-autocomplete-placeholder { padding: 5px 7px; }
+
+body .cs-message-autocomplete-autocomplete-results { margin: 0; padding: 0; }
+body .cs-message-autocomplete-autocomplete-result { margin: 0; padding: 5px; list-style-type: none; background: #fff; }
+body .cs-message-autocomplete-autocomplete-result-focus { background: #f1f7ec; }
+body .cs-message-autocomplete-autocomplete-highlight { background: #ffffff; font-weight: normal; }
+
+/*  cs-message-autocomplete.Autocomplete Style guidelines 
+			Try to keep .cs-message-autocomplete-autocomplete {} as it is now
+			If you apply custom styles to placeholder, also apply them to results, like it is now.
+			.cs-message-autocomplete-autocomplete-result {} needs a background for IE.
+*/
+
+#csEvaluationsTags .cs-message-autocomplete .background-text { position: absolute; top: 0px; left: 0px; color: #666666; top: 7px; left: 7px; z-index: 2; }
+
+#csEvaluationsTags .cs-message-autocomplete { font-size: 11px; cursor: text; position: relative;}
+
+#csEvaluationsTags .cs-message-autocomplete-bits { zoom: 1; overflow: auto; margin: 0; padding: 2px 4px; border: 1px solid #cccccc; *padding-bottom: 3px; position: relative; z-index: 1; background-color: #fff;max-height:100px;}
+#csEvaluationsTags .cs-message-autocomplete-bit { list-style-type: none; float: left; display: block; padding: 0; margin: 2px 5px 2px 0; cursor: default; }
+#csEvaluationsTags .cs-message-autocomplete-focused .cs-message-autocomplete-bits {border-color: #aaaaaa;}
+#csEvaluationsTags .cs-message-autocomplete-bit-editable {  }
+#csEvaluationsTags .cs-message-autocomplete-bit .cs-message-autocomplete-bit-editable-input { border: 0; line-height: 13px; padding: 1px 0px 1px 0px; background-color: transparent; margin: 0px; }
+#csEvaluationsTags .cs-message-autocomplete-bit-editable-input:focus { outline: none; }
+#csEvaluationsTags .cs-message-autocomplete-bit-box { position: relative; line-height: 16px; padding:2px 16px 2px 3px; border: 1px solid #dddddd; background: #ECECEC; cursor: default; color: #333333; }
+
+#csEvaluationsTags .cs-message-autocomplete-bit-box-deletable { padding-right: 18px; }
+#csEvaluationsTags .cs-message-autocomplete-bit-box-deletebutton { position: absolute; right: 4px; top: 6px; display: block; width: 8px; height: 9px; font-size: 1px; background: url(../../images/icons.png) no-repeat -85px 0px transparent; }
+#csEvaluationsTags .cs-message-autocomplete-bit-box-deletebutton:hover { border: none; background-position: -85px 0px; text-decoration: none; }
+#csEvaluationsTags .cs-message-autocomplete-bit-box-hover {  }
+#csEvaluationsTags .cs-message-autocomplete-bit-box-focused { border-color: #8b8b8b; background: #8b8b8b; color: #fff; }
+#csEvaluationsTags .cs-message-autocomplete-bit-box-focused .cs-message-autocomplete-bit-box-deletebutton {  }
+#csEvaluationsTags .cs-message-autocomplete-bit-box-single{float: none; margin-right: 0px; }
+#csEvaluationsTags .cs-message-autocomplete:hover .cs-message-autocomplete-bits { border-color: #aaaaaa; }
+#csEvaluationsTags .cs-message-autocomplete-bit-box-deletable { padding-right: 18px; }
+#csEvaluationsTags .cs-message-autocomplete-bit-box-deletebutton { position: absolute; right: 4px; top: 6px; display: block; width: 8px; height: 9px; font-size: 1px; background: url(../../images/icons.png) no-repeat -85px 0px transparent; }
+#csEvaluationsTags .cs-message-autocomplete-bit-box-deletebutton:hover { border: none; background-position: -85px 0px; text-decoration: none; }
+#csEvaluationsTags .cs-message-autocomplete-autocomplete-results div.cs-message-autocomplete-autocomplete-results-container{ margin-left: 3px; padding-top: 5px; font-weight: normal;}
+#account-accelerators-ajax-evaluations-content div.search-applications .cs-message-autocomplete-autocomplete-placeholder, .cs-message-autocomplete-autocomplete-results { font-weight: normal;  background: #eee; -webkit-box-shadow: 0 3px 3px #ccc; -moz-box-shadow: 0 3px 3px #ccc; box-shadow: 0 3px 3px #ccc; border: 1px solid #999; border-top: none; display: none; opacity:1;}
+#account-accelerators-ajax-evaluations-content div.search-applications .cs-message-autocomplete-autocomplete-placeholder, .cs-message-autocomplete-autocomplete-results { font-weight: normal;}
+
+#account-organizations-popup-refer-users .cs-message-autocomplete div.background-text{
+    color: #666666;
+    left: 7px;
+    position: absolute;
+    top: 7px;
+    z-index: 5;
+}
+ 
+
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete .background-text { position: absolute; top: 0px; left: 0px; color: #666666; top: 7px; left: 7px; z-index: 2; font-weight:normal; }
+
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete { font-size: 11px; cursor: text; position: relative;}
+
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bits { zoom: 1; overflow: auto; margin: 0; padding: 2px 4px; border: 1px solid #cccccc; *padding-bottom: 3px; position: relative; z-index: 1; background-color: #fff;max-height:100px;}
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit { list-style-type: none; float: left; display: block; padding: 0; margin: 2px 5px 2px 0; cursor: default; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-focused .cs-message-autocomplete-bits {border-color: #aaaaaa;}
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-editable {  }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit .cs-message-autocomplete-bit-editable-input { border: 0; line-height: 13px; padding: 1px 0px 1px 0px; background-color: transparent; margin: 0px; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-editable-input:focus { outline: none; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter.cs-message-autocomplete-bit-box { position: relative; line-height: 16px; padding:2px 16px 2px 3px; border: 1px solid #dddddd; background: #ECECEC; cursor: default; color: #333333; }
+
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-box-deletable { padding-right: 18px;  padding-left: 2px; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-box-deletebutton { position: absolute; right: 4px; top: 4px; display: block; width: 8px; height: 9px; font-size: 1px; background: url(../../images/icons.png) no-repeat -85px 0px transparent; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-box-deletebutton:hover { border: none; background-position: -85px 0px; text-decoration: none; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter.cs-message-autocomplete-bit-box-hover {  }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-box-focused { border-color: #8b8b8b; background: #8b8b8b; color: #fff; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-box-focused .cs-message-autocomplete-bit-box-deletebutton {  }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-box-single{float: none; margin-right: 0px; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete:hover .cs-message-autocomplete-bits { border-color: #aaaaaa; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-box-deletable { padding-right: 18px; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter.cs-message-autocomplete-bit-box-deletebutton { position: absolute; right: 4px; top: 6px; display: block; width: 8px; height: 9px; font-size: 1px; background: url(../../images/icons.png) no-repeat -85px 0px transparent; }
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-bit-box-deletebutton:hover { border: none; background-position: -85px 0px; text-decoration: none; }
+
+#csAdvancedFiltersForm div.advanced-filter div.one-advanced-filter .cs-message-autocomplete-autocomplete-results div.cs-message-autocomplete-autocomplete-results-container {
+	font-weight: normal;
+    margin-left: 12px;
+    padding-top: 5px;
+}
+
+body .red-marker {
+    border:#dc3030 solid 1px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+
+#account-feeds-popup-add-specific-people span.icon-more {
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background-image: url("../images/icons.png");
+    cursor: pointer;
+    margin-top:-2px;
+}
+
+#account-feeds-popup-add-specific-people span.expand-member {
+    background-position: -55px -141px;
+}
+#account-feeds-popup-add-specific-people span.expand-member:hover {
+    background-position: -55px -27px;
+}
+
+#account-feeds-popup-add-specific-people span.collapse-member {
+    background-position: -55px -148px;
+}
+#account-feeds-popup-add-specific-people span.collapse-member:hover {
+    background-position: -55px -34px;
+}
+
+
+/*******************************************
+	dropdown-checkbox
+*****************************************/
+
+/*-----------------------------------------------------------------------------------------
+		THUMB RATING
+------------------------------------------------------------------------------------------*/
+body .cs-thumb{
+	display: inline-block;
+}
+body .cs-thumb > span.btn{
+	display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f1f1f1;
+	background: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #eeeeee));
+	background: -moz-linear-gradient(top, #ffffff, #eeeeee);
+	background: -o-linear-gradient(top, #ffffff, #eeeeee);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ffffff, EndColorStr=#eeeeee);
+	background: linear-gradient(top, #ffffff, #eeeeee);
+	color: #000000;
+	border: 1px solid #aaaaaa;	
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    padding-left: 39px;
+    height: 42px;
+    line-height: 42px;
+    padding-right: 6px;
+}
+body .cs-thumb > span.btn.selected{
+	background: -webkit-linear-gradient(top, #c3c3c3, #eaeaea);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c3c3c3), color-stop(1, #eaeaea));
+	background: -moz-linear-gradient(top, #c3c3c3, #eaeaea);
+	background: -o-linear-gradient(top, #c3c3c3, #eaeaea);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#c3c3c3, EndColorStr=#eaeaea);
+	background: linear-gradient(top, #c3c3c3, #eaeaea);
+}
+body .cs-thumb > span.btn:hover{
+	border: 1px solid #666666;	
+    z-index: 1;
+}
+body .cs-thumb > span.btn > span.icn{
+	background: url(../images/thumb_up.png) 0px 0px transparent no-repeat;
+    display: block;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+body .cs-thumb > span.btn.down{
+    margin-left: 4px;
+}
+body .cs-thumb > span.btn.up > span.icn{
+    background-image: url(../images/thumb_up.png);
+    top: 4px;
+}
+body .cs-thumb > span.btn.down > span.icn{
+    background-image: url(../images/thumb_down.png);
+    top: 8px;
+}
+
+
+/*-----------------------------------------------------------------------------------------
+		DROP-DOWN
+------------------------------------------------------------------------------------------*/
+body .cs-dropdown-checkbox{
+	padding: 0px 0px 0px 0px;
+	height: 31px;
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	text-decoration: none;
+	position: relative;
+	line-height: 24px;
+}
+body .cs-dropdown-checkbox-small{
+	height: 20px;
+	font-size: 11px;
+	line-height: 19px;
+}
+body .cs-dropdown-checkbox-size-small{
+	height: 25px;
+	line-height: 17px;
+}
+body .cs-dropdown-checkbox-size-larger{
+	height: 35px;
+	line-height: 33px;
+}
+body .cs-dropdown-checkbox-medium{
+	height: 25px;
+	font-size: 11px;
+	line-height:25px;
+}
+body .cs-dropdown-checkbox-color-red{
+	border: 1px solid #d22225;	
+	border-bottom-color: #b1191c;	
+}
+body .cs-dropdown-checkbox-color-light{
+	border: 1px solid #d4d4d4;	
+	border-bottom-color: #d4d4d4;	
+}
+body .cs-dropdown-checkbox-color-grey{
+	border: 1px solid #999999;
+}
+body .cs-dropdown-checkbox-split span.split-caption{
+	padding: 0px 8px 0px 8px;
+	display: inline-block;
+	background: url(../images/components/cs-component-bgs.gif) repeat-x 0px 0px #f3f3f3;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: center;
+	font-weight: normal;
+	text-decoration: none;
+	height: 24px;
+	background-repeat:no-repeat;
+	color: #444444;
+	text-decoration: none;
+	position: relative;
+	font-weight: bold;
+	z-index: 0;
+	border-right: 1px solid #dddddd;
+	line-height: 23px;
+}
+body .cs-dropdown-checkbox-split span.split-caption:hover{
+	border: 1px solid #484848;
+	margin-top: -1px;
+	margin-left: -1px;
+}
+body .cs-dropdown-checkbox-invisible{
+	background: none;
+	background-color: transparent;
+	border: 1px solid transparent;
+}
+body .cs-dropdown-checkbox span.caption{
+	padding: 0px 27px 0px 8px;
+	display: inline-block;
+	background: none repeat-x scroll 0 0 #FFFFFF;
+	cursor: pointer;
+	white-space: nowrap;
+	text-align: center;
+	text-decoration: none;
+	height: 31px;
+	line-height: 29px;
+	color: #444444;
+	text-decoration: none;
+	position: relative;
+	font-weight: bold;
+	z-index: 0;
+}
+body .cs-dropdown-checkbox-small  span.caption{
+	padding-left: 5px;
+	padding-right: 15px;
+	height: 20px;
+	line-height: 19px;
+}
+body .cs-dropdown-checkbox-size-small  span.caption{
+	height: 25px;
+	line-height: 25px;
+	font-weight: normal;
+	font-size: 12px;
+}
+body .cs-dropdown-checkbox-size-larger  span.caption{
+	height: 35px;
+	line-height: 35px;
+	font-weight: normal;
+	padding-left: 15px;
+	padding-right: 30px;
+}
+/* FIREFOX ONLY */
+@-moz-document url-prefix() {
+    body .cs-dropdown-checkbox-size-small  span.caption {
+        line-height: 24px;
+    }
+	body .cs-dropdown-checkbox-size-larger  span.caption {
+        line-height: 34px;
+    }
+}
+body .cs-dropdown-checkbox-color-red  span.caption{
+	background: none repeat-x 0px 0px #e54040;
+	background: -webkit-linear-gradient(top, #E54040, #da2828);      
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ec6262), color-stop(1, #da2828));
+	background: -moz-linear-gradient(top, #E54040, #da2828);
+	background: -o-linear-gradient(top, #E54040, #da2828);
+	background: linear-gradient(top, #E54040, #da2828);
+	color: #ffffff;
+	text-shadow: 0 -1px 1px rgba(83,15,16,.5);
+}
+body .cs-dropdown-checkbox-color-light  span.caption{
+	background: none repeat-x 0px 0px #f5f5f5;
+	background: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #f5f5f5));
+	background: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+	background: -o-linear-gradient(top, #ffffff, #f5f5f5);
+	background: linear-gradient(top, #ffffff, #f5f5f5);
+	text-shadow: 0px 1px 1px #fff;
+	color: #636363;
+}
+body .cs-dropdown-checkbox-color-grey  span.caption{
+	background: none repeat-x 0px 0px #ececec;
+	background: -webkit-linear-gradient(top, #ececec, #dbdbdb);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ececec), color-stop(1, #dbdbdb));
+	background: -moz-linear-gradient(top, #ececec, #dbdbdb);
+	background: -o-linear-gradient(top, #ececec, #dbdbdb);
+	 filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ececec, EndColorStr=#dbdbdb)";
+	background: linear-gradient(top, #ececec, #dbdbdb);
+	text-shadow: 0px 1px 1px #fff;
+	color: #333;
+}
+body .cs-dropdown-checkbox-medium  span.caption{
+	padding-left: 5px;
+	padding-right: 15px;
+	height: 25px;
+	line-height: 25px;
+}
+body .cs-dropdown-checkbox-arrow-left span.caption{
+	padding-right: 8px;
+}
+body .cs-dropdown-checkbox-split span.caption{
+	padding-left: 0px;
+	border-left: 1px solid #ffffff;
+}
+body .cs-dropdown-checkbox-split span.caption:hover{
+	border: 1px solid #484848;
+	margin-top: -1px;
+	margin-right: -1px;
+}
+
+body .cs-dropdown-checkbox-invisible span.caption{
+	background: none;
+	background-color: transparent;
+	color: #0058ca;
+}
+body .cs-dropdown-checkbox span.caption span.title{
+	display: inline-block;
+}
+body .cs-dropdown-checkbox span.caption-title-hide span.title{
+	width: 1px;
+	visibility: hidden;
+}
+body .cs-dropdown-checkbox span.caption-title-hide{
+	padding-right: 16px;
+}
+body .cs-dropdown-checkbox-arrow-left span.caption-title-hide{
+	padding-right: 0px;
+}
+body .cs-dropdown-checkbox-size-small span.caption-title-hide{
+	padding-right: 16px;
+	padding-left: 10px;
+}
+body .cs-dropdown-checkbox-split span.caption span.title{
+	width: 1px;
+	visibility: hidden;
+}
+body .cs-dropdown-checkbox span.caption-with-icon{
+	padding-left: 28px;
+}
+body .cs-dropdown-checkbox-arrow-left span.caption-with-icon{
+	padding-left: 50px;
+}
+body .cs-dropdown-checkbox span.caption-with-icon span.caption-icon{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 4px;
+	left: 6px;
+	z-index: 1;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+body .cs-dropdown-checkbox-arrow-left span.caption-with-icon span.caption-icon{
+	left: 28px;
+}
+body .cs-dropdown-checkbox span.caption span.caption-arrow{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 8px;
+	right: 6px;
+	z-index: 1;
+	background: url(../images/components/cs-component-icons.png) -32px 0px transparent no-repeat;
+}
+body .cs-dropdown-checkbox-medium span.caption span.caption-arrow{
+	height: 3px;
+	width: 5px;
+	top: 9px;
+	right: 6px;
+	background: url(../images/components/cs-component-icons.png) -23px -40px transparent no-repeat;
+}
+body .cs-dropdown-checkbox-size-larger span.caption span.caption-arrow{
+	top: 10px;
+	right: 6px;
+}
+body .cs-dropdown-checkbox-color-light span.caption span.caption-arrow{
+	background: url(../images/components/cs-component-icons.png) -84px -95px transparent no-repeat;
+}
+body .cs-dropdown-checkbox-size-small.cs-dropdown-checkbox-color-grey span.caption span.caption-arrow{
+	top: 5px;
+}
+body .cs-dropdown-checkbox-small span.caption span.caption-arrow{
+	height: 3px;
+	width: 5px;
+	top: 9px;
+	right: 6px;
+	background: url(../images/components/cs-component-icons.png) -23px -40px transparent no-repeat;
+}
+body .cs-dropdown-checkbox-size-small span.caption span.caption-arrow{
+	top: 4px;
+}
+body .cs-dropdown-checkbox-color-red span.caption span.caption-arrow{
+	background-position: -65px -95px;
+}
+body .cs-dropdown-checkbox-dark span.caption span.caption-arrow{
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	top: 8px;
+	right: 6px;
+	z-index: 1;
+	background: url(../images/components/cs-component-icons.png) -32px -16px transparent no-repeat;
+}
+body .cs-dropdown-checkbox-arrow-left span.caption span.caption-arrow{
+	left: 6px;
+	right: auto;
+}
+body .cs-dropdown-checkbox-invisible span.caption span.caption-arrow{
+	display: none;
+}
+body .cs-dropdown-checkbox:hover{
+	border-color: #aaaaaa;
+}
+body .cs-dropdown-checkbox-color-red:hover{
+	border: 1px solid #d22225;	
+	border-bottom-color: #b1191c;
+}
+body .cs-dropdown-checkbox-color-grey:hover{
+	border-color: #666666;
+}
+body .cs-dropdown-checkbox-split:hover{
+	border: 1px solid #979797;
+}
+
+body .cs-dropdown-checkbox-dark:hover span.caption{
+	text-decoration: none;
+	background: url(../images/components/cs-component-bgs.gif) repeat-x 0px 0px #f3f3f3;
+	color:#444444;
+}
+body .cs-dropdown-checkbox:hover span.caption{
+	text-decoration: none;
+}
+body .cs-dropdown-checkbox-color-light:hover span.caption{
+	background: none repeat-x 0px 0px #f5f5f5;
+	background: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(1, #f5f5f5));
+	background: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+	background: -o-linear-gradient(top, #ffffff, #f5f5f5);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ffffff, EndColorStr=#f5f5f5)";
+	background: linear-gradient(top, #ffffff, #f5f5f5);
+	color: #636363;
+}
+body .cs-dropdown-checkbox-color-grey:hover span.caption{
+	
+	background: none repeat-x 0px 0px #e54040;
+	background: -webkit-linear-gradient(top, #ececec, #dbdbdb);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ececec), color-stop(1, #dbdbdb));
+	background: -moz-linear-gradient(top, #ececec, #dbdbdb);
+	background: -o-linear-gradient(top, #ececec, #dbdbdb);
+	 filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ececec, EndColorStr=#dbdbdb)";
+	background: linear-gradient(top, #ececec, #dbdbdb);
+	text-shadow: 0px 1px 1px #fff;
+	color: #333333;
+}
+body .cs-dropdown-checkbox-dark span.caption{
+	background: none repeat-x 0px 0px #e54040;
+	background: -webkit-linear-gradient(top, #E54040, #da2828);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ec6262), color-stop(1, #da2828));
+	background: -moz-linear-gradient(top, #E54040, #da2828);
+	background: -o-linear-gradient(top, #E54040, #da2828);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#ec6262, EndColorStr=#da2828)";
+	background: linear-gradient(top, #E54040, #da2828);
+	color: #ffffff;
+	text-shadow: 0 -1px 1px rgba(83,15,16,.5);
+}
+body .cs-dropdown-checkbox-opened{
+	border-color: #AAAAAA;
+	color: #ffffff;
+}
+body .cs-dropdown-checkbox-opened.cs-dropdown-checkbox-color-red{
+	border-color: #7E1416;
+}
+body .cs-dropdown-checkbox-opened.cs-dropdown-checkbox-color-openwhite{
+	border-color: #666666;
+	background-color: white;
+}
+body .cs-dropdown-checkbox-opened.cs-dropdown-checkbox-size-small.cs-dropdown-checkbox-color-openwhite{
+	height: 32px;
+	margin-bottom: -7px;
+}
+body .cs-dropdown-checkbox-split-opened{
+	border: 1px solid #979797;
+}
+body .cs-dropdown-checkbox-opened:hover{
+	/* border-color: #222222; */
+}
+body .cs-dropdown-checkbox-split-opened:hover{
+	/* border: 1px solid #979797; */
+}
+body .cs-dropdown-checkbox-opened span.caption{
+	/* background: none #555555;
+	color: #ffffff; */
+}
+body .cs-dropdown-checkbox-split-opened span.caption{
+	/* border: 1px solid #484848; */
+	margin-top: -1px;
+	margin-right: -1px;
+}
+body .cs-dropdown-checkbox-opened.cs-dropdown-checkbox-size-small.cs-dropdown-checkbox-color-openwhite  span.caption{
+	background: none white;
+	z-index: 20;
+	height: 32px;
+}
+body .cs-dropdown-checkbox-opened.cs-dropdown-checkbox-color-light span.caption{
+	background: none repeat-x 0px 0px #f5f5f5;
+	background: -webkit-linear-gradient(top, #f5f5f5, #ffffff);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f5f5f5), color-stop(1, #ffffff));
+	background: -moz-linear-gradient(top, #f5f5f5, #ffffff);
+	background: -o-linear-gradient(top, #f5f5f5, #ffffff);
+	filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#f5f5f5, EndColorStr=#ffffff)";
+	background: linear-gradient(top, #f5f5f5, #ffffff);
+	color: #636363;
+}
+body .cs-dropdown-checkbox-opened:hover span.caption{
+	/* background: none #555555;
+	color: #ffffff; */
+}
+body .cs-dropdown-checkbox-invisible:hover span.caption span.caption-arrow{
+	display: block;
+}
+body .cs-dropdown-checkbox-color-red:hover{
+	border-color: #7E1416;
+}
+body .cs-dropdown-checkbox-color-red:hover span.caption span.caption-arrow{
+	background-position: -65px -95px;
+}
+body .cs-dropdown-checkbox-opened span.caption span.caption-arrow{
+	display: block;
+}
+body .cs-dropdown-checkbox-opened.cs-dropdown-checkbox-size-small.cs-dropdown-checkbox-color-openwhite:hover  span.caption{
+	color: #333333;
+}
+body .cs-dropdown-checkbox-small-opened span.caption span.caption-arrow{
+	background-position: -23px -43px;
+	display: block;
+}
+body .cs-dropdown-checkbox-opened.cs-dropdown-checkbox-color-red span.caption span.caption-arrow{
+	background-position: -65px -95px;
+}
+body .cs-dropdown-checkbox-opened.cs-dropdown-checkbox-color-openwhite span.caption span.caption-arrow{
+	background-position: -32px 0px;
+}
+body .cs-dropdown-checkbox-opened.cs-dropdown-checkbox-color-light span.caption span.caption-arrow{
+	background: url(../images/components/cs-component-icons.png) -84px -95px transparent no-repeat;
+}
+body .cs-dropdown-checkbox span.hidden{
+	position: absolute;
+	top: 31px;
+	left: -1px;
+	border: 1px solid #666666;
+	background-color: #ffffff;
+	display: inline-block;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	z-index: 19;
+	display: none;
+	line-height: 16px;
+}
+body .cs-dropdown-checkbox span.hidden.top{
+	top: auto;
+	bottom: 31px;
+}
+body .cs-dropdown-checkbox-small span.hidden{
+	top: 20px;
+}
+body .cs-dropdown-checkbox-size-larger span.hidden{
+	top: 35px;
+}
+body .cs-dropdown-checkbox-size-small span.hidden{
+	top: 25px;
+}
+body .cs-dropdown-checkbox-size-small.cs-dropdown-checkbox-color-openwhite span.hidden{
+	top: 31px;
+}
+body .cs-dropdown-checkbox-right span.hidden{
+	left: auto;
+	right: -1px;
+}
+body .cs-dropdown-checkbox span.hidden_left{
+	left: 0px;
+}
+body .cs-dropdown-checkbox span.hidden_right{
+	right: 0px;
+}
+body .cs-dropdown-checkbox-opened span.hidden{
+	display: block;
+	width:100%;
+}
+body .cs-dropdown-checkbox span.hidden span.pointer{
+	position: absolute;
+	top: -7px;
+	width: 11px;
+	height: 7px;
+	background: url(../images/dropdown_cloud_pointer.gif) 0 0 transparent no-repeat;
+}
+body .cs-dropdown-checkbox span.hidden_left span.pointer{
+	left: 20px;
+}
+body .cs-dropdown-checkbox span.hidden_right span.pointer{
+	right: 20px;
+}
+body .cs-dropdown-checkbox span.hidden ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+body .cs-dropdown-checkbox span.hidden ul li{
+	color: #222222;
+	white-space: nowrap;
+	padding: 3px 14px 3px 5px;
+	display: block;
+	text-decoration: none;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 1px 0px 1px 0px;
+	position: relative;
+	text-align: left;
+	font-weight: normal;
+}
+body .cs-dropdown-checkbox-right-texts span.hidden ul li{
+	padding-right: 50px;
+}
+body .cs-dropdown-checkbox-no-drop-icons span.hidden ul li{
+	padding: 3px 14px 3px 10px;
+}
+body .cs-dropdown-checkbox span.hidden ul li.disabled{
+	color: #777777;
+}
+body .cs-dropdown-checkbox span.hidden ul li.hidden{
+	display: none;
+}
+body .cs-dropdown-checkbox span.hidden ul li.break{
+	border-width: 0px;
+	padding: 5px 9px;
+}
+body .cs-dropdown-checkbox span.hidden ul li.break span{
+	display: block;
+	height: 1px;
+	background-color: #cccccc;
+}
+
+body .cs-dropdown-checkbox span.hidden ul li span.icon{
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+body .cs-dropdown-checkbox span.hidden ul li.selected{
+	font-weight: bold;
+	color: #000000;
+}
+body .cs-dropdown-checkbox span.hidden ul li.selected span.tick{
+	display: block;
+}
+body .cs-dropdown-checkbox span.hidden ul li.hover span.tick{
+	background-position: -1px -1px;
+}
+body .cs-dropdown-checkbox span.hidden  ul li.hover{
+	color: #ffffff;
+	background-color: #7dc864;
+	border: 1px 0px 1px 0px solid #7dc864;
+}
+body .cs-dropdown-checkbox span.hidden  ul li.hover span.cs-checkbox{
+	border-color: #ffffff;
+}
+body .cs-dropdown-checkbox span.hidden  ul li span.right-text{
+	position: absolute;
+	top: 3px;
+	right: 15px;
+	color: #888888;
+}
+body .cs-dropdown-checkbox span.hidden  ul li.hover span.right-text{
+	color: #cccccc;
+}
+body .cs-dropdown-checkbox span.hidden ul li.break-hover{
+	background-color: #ffffff;
+}
+body .cs-dropdown-checkbox-disabled span.caption span.title {
+    color: #777777;
+}
+body .cs-dropdown-checkbox-disabled span.caption span.caption-arrow {
+	background-position: -30px -96px;
+}
+body .cs-dropdown-checkbox-disabled span.caption span.caption-arrow {
+	background-position: -30px -96px;
+}
+
+
+
+body span.cs-selector{
+	color: #e54040;
+	cursor: pointer;
+	padding:5px 6px;
+	background:url("../images/components/cs-component-bgs.gif") repeat-x scroll 0 0 #F3F3F3;
+}
+body span.cs-selector span.switcher-element{
+	text-decoration:underline;
+	cursor: pointer;
+}
+body span.cs-selector:hover{
+	text-decoration: underline;
+}
+body span.cs-selector.disabled{
+	color: #999999;
+}
+body span.cs-selector.disabled:hover{
+	color: #999999;
+	text-decoration: none;
+}
+body .cs-message-autocomplete-bit-box.tag.tag-selected {
+    background-color: #e54040;
+    color: #ffffff;
+    border: 1px solid #e12327;
+}

@@ -1,0 +1,332 @@
+div.cs-form div.overlay, div.job-applications-form div.overlay {
+	border: 1px solid #dddddd; 
+	z-index: 12; 
+	position: absolute; 
+	top: -9px; 
+	left: -13px; 
+	right: -13px; 
+	bottom: -13px;
+	display: none;	
+	background: url('../images/stripes.png') transparent repeat;
+}
+div.cs-form ul.fields-list {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+div.cs-form ul.fields-list span.field-type-image{
+	background: url(../images/components/cs-component-icons.png) 0px 0px transparent no-repeat;
+	height: 14px;
+	width: 20px;
+	display: inline-block;
+}
+div.cs-form ul.fields-list span.field-type-image-text{
+	background-position: -122px -128px;
+}
+div.cs-form ul.fields-list span.field-type-image-longtext{
+	background-position: -102px -128px;
+}
+div.cs-form ul.fields-list span.field-type-image-select{
+	background-position: -82px -128px;
+}
+div.cs-form ul.fields-list span.field-type-image-checkboxes{
+	background-position: -62px -128px;
+}
+div.cs-form ul.fields-list span.field-type-image-radio{
+	background-position: -42px -128px;
+}
+div.cs-form ul.fields-list span.field-type-image-members_longtext{
+	background-position: -22px -128px;
+}
+div.cs-form ul.fields-list span.field-type-image-video{
+	background-position: -102px -114px;
+}
+div.cs-form ul.fields-list span.field-type-image-file_upload{
+	background-position: -82px -114px;
+}
+div.cs-form ul.fields-list > li{
+    padding: 0px;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left:10px;
+	padding-right:10px;
+	border-bottom: 1px solid #e5e5e5;
+    position: relative;
+	background-color: #ffffff;
+}
+div.cs-form ul.fields-list > li div.field-row{
+	display: table;
+	width: 100%;
+}
+div.cs-form ul.fields-list > li div.field-name{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 15px;
+}
+div.cs-form ul.fields-list > li div.field-section{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 12px;
+}
+div.cs-form ul.fields-list > li div.field-name span.field-red-star {
+    background: url(../images/components/cs-components-icons.png) no-repeat scroll 0 -54px transparent;
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+}
+div.cs-form ul.fields-list > li div.field-type{
+	width: 20px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+div.cs-form ul.fields-list > li div.field-actions{
+	width: 160px;
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+}
+div.cs-form ul.fields-list > li div.field-actions span.divider{
+	display: inline-block;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    width: 3px;
+}
+div.cs-form ul.fields-list > li div.field-actions  span.divider span{
+	background: url(../images/components/cs-components-icons.png) no-repeat scroll -52px 0 transparent;
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 3px;
+}
+div.cs-form ul.fields-list > li div.field-actions a {
+	text-decoration: underline;
+	font-size: 13px;
+}
+div.cs-form ul.fields-list > li div.field-actions a:hover {
+	text-decoration:none;	
+}
+div.cs-form ul.fields-list > li div.field-handle{
+	width: 30px;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+}
+div.cs-form ul.fields-list > li div.field-handle span.handle{
+	 background: url(../images/components/cs-component-icons.png) no-repeat scroll -131px -111px transparent;
+	 width: 11px;
+	 height: 17px;
+	 display: inline-block;
+	 cursor:move;
+}
+div.cs-form ul.fields-list > span.field-red-star {
+    background: url(../images/components/cs-components-icons.png) no-repeat scroll 0 -54px transparent;
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+}
+div.cs-form ol.application {
+    
+}
+div.cs-form ol.application > li {
+    margin-bottom: 25px;
+}
+div.cs-form ol.application > li > h4{
+    font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 7px;
+	line-height: 18px;
+	margin-top: 0px;
+	color: #3f3f3f;
+}
+div.cs-form ol.application > li > p.field-description{
+    margin-top: -9px;
+	margin-bottom: 7px;
+	font-size: 12px;
+	color: #636363;
+}
+div.cs-form ol.application > li > .cs-field-length-count-outer{
+	margin-bottom: 0px;
+}
+div.cs-form ul.basic > li{
+    margin-bottom: 15px;
+}
+div.cs-form ul.basic > li.left{
+    float: left;
+	margin-right: 12px;
+}
+div.cs-form ul.basic > li.right{
+    float: right;
+}
+div.cs-form ul.basic > li > h4{
+    font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	line-height: 18px;
+	margin-top: 0px;
+	color: #636363;
+}
+div.cs-form ul.basic > li > .cs-field-length-count-outer{
+	margin-bottom: 0px;
+}
+div.cs-form ul.basic > li.picture{
+	border: 1px solid #e0e0e0;
+	width: 114px;
+	height: 114px;
+	position: relative;
+	margin-top: 24px;
+}
+div.cs-form ul.basic > li.picture div.picture-inside{
+	width: 64px;
+	height: 64px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -32px;
+	margin-left: -32px;
+}
+div.cs-form ul.basic > li.picture div.picture-inside img{
+	width: 64px;
+	height: 64px;
+}
+div.cs-form ul.basic > li.picture div.picture-inside span.edit-picture{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+	border: 1px solid #df3434;
+	background-color: rgba(255,255,255,0.8);
+	font-size: 10px;
+	color: #E54040;
+	text-align: center;
+	padding-top: 40px;
+}
+div.cs-form ul.basic > li.picture div.picture-inside span.edit-picture-visible{
+	display: block;
+}
+div.cs-form ul.basic > li.picture div.picture-inside:hover span.edit-picture{
+	display: block;
+}
+div.cs-form ul.basic > li.picture div.picture-inside span.edit-picture > span.icon{
+	background-image: url(../images/icons.png);
+	background-position: -83px -215px;
+	background-repeat: no-repeat;
+	height: 33px;
+	width: 32px;
+	position: absolute;
+	top: 9px;
+	left: 15px;
+}
+div.cs-form ul.basic > li > h4 span.icon{
+    display: inline-block;
+	height: 22px;
+	background-image: url(../images/icons.png);
+	background-position: -216px -198px;
+	background-repeat: no-repeat;
+	width: 22px;
+	margin-bottom: -5px;
+	margin-left: -3px;
+}
+div.cs-form ul.basic > li > h4 span.icon-info{
+	background-position: -216px -198px;
+}
+div.cs-form ul.basic > li > h4 span.icon-location{
+	background-position: -282px -132px;
+}
+div.cs-form ul.basic > li > h4 span.icon-skills{
+	background-position: -238px -154px;
+}
+div.cs-form ul.basic > li ul.skills{
+    margin-bottom: 15px;
+}
+div.cs-form ul.basic > li ul.skills > li{
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #E5E5E5;
+    color: #636363;
+    font-style: italic;
+    font-weight: normal;
+    padding: 6px 12px 7px 12px;
+	margin: 1px 2px 1px 0;
+	cursor: default;
+    line-height: 16px;
+    position: relative;
+	display: block;
+    float: left;
+}
+div.cs-form  span.red-star{
+    display: inline-block; 
+	height: 11px; 
+	width: 11px; 
+	background: url(../images/components/cs-components-icons.png) 0px -54px no-repeat transparent
+}
+div.cs-form h3{
+	font-size: 16px;
+	color: #333333;
+	padding: 0px;
+	margin: 0px;
+	line-height: 42px;
+	border-bottom: 1px solid #d7d7d7;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+div.cs-form h3 p{
+	font-size: 12px;
+	color: #333333;
+	padding: 0px;
+	margin: 0px;
+	line-height: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+div.cs-form h3 p.i{
+	font-size: 11px;
+	font-style: italic;
+	color: #929292;
+	margin-bottom: 5px;
+}
+div.cs-form h3 > span.icon{
+	display: inline-block;
+	height: 22px;
+	background-image: url(../images/icons.png);
+	background-position: -216px -220px;
+	background-repeat: no-repeat;
+	width: 22px;
+	margin-bottom: -5px;
+	margin-left: -3px;
+	margin-right: 5px;
+}
+div.cs-form h3 > span.icon-question{
+	background-position: -216px -220px;
+}
+div.cs-form h3 > span.icon-info{
+	background-position: -194px -220px;
+}
+div.cs-form  ol.answers{
+
+}
+div.cs-form  ol.answers > li{
+	margin-bottom: 15px;
+}
+div.cs-form  ol.answers > li > h4{
+    font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	line-height: 18px;
+	margin-top: 0px;
+	color: #3f3f3f;
+}
+div.cs-form  ol.answers > li > p{
+    color: #636363;
+	font-style: italic;
+}

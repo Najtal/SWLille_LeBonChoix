@@ -1,0 +1,91 @@
+body {
+	min-width: auto;
+}
+body div.middle {
+	width: auto;
+}
+#content {
+	overflow-x: hidden;
+}
+.content-wrap {
+    margin: 0px !important;
+}
+div#top_bar {
+	display: none;
+}
+#top {
+    display: none !important;
+}
+/* Application form page rules */
+#csFix.evaluator-form {
+	display: none;
+}
+#application-media-mode {
+	display: none;
+}
+#csOtherEvaluatorsSwitcher span {
+	display: none;
+}
+div.show-evaluators {
+	display: none;
+}
+#csProfileMenu {
+    display: none;
+}
+.page-content {
+    box-shadow: none !important;
+    border: none !important;
+}
+#evaluation-main {
+    margin: 0px !important;
+}
+.evaluation-top .left-part {
+    float: left !important;
+    width: 70% !important;
+    margin: 0px !important;
+}
+.evaluation-top .right-part {
+    float: left !important;
+    width: 25% !important;
+    position: static !important;
+}
+.profile-videos {
+    word-break: break-all;
+}
+#csAllEvaluatorsBlock {
+	padding-bottom: 25px;
+}
+#account-accelerators-ajax-application-evaluations-content table.evaluators-list tr.evaluator td.evaluator-score div {
+	padding-right: 20px;
+}
+div.cs-evaluat-members-block-main {
+	border: none !important;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-module-block-6 a {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;	
+}
+#account-accelerators-ajax-application-evaluations-content a.thumb span.title {
+	background: none !important;
+	position: static !important;
+	display: block;
+	text-align: center !important;
+	color: #333333 !important;
+	text-shadow: none;
+}
+.cs-show-bas- {
+	display: none;
+}
+div.member-content {
+	color: #333333 !important;
+}
+div.applicant-additional-info ul.profile-external-links li a {
+	padding-left: 0px !important;
+}
+#bottom {
+    display: none;
+}
+a.feedback-tab {
+    display: none !important;
+}

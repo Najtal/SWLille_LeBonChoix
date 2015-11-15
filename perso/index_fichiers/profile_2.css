@@ -1,0 +1,1960 @@
+#subInvestWrapper h4#profile-main-ajax-summary div.module h2  {
+    color: #333333 !important;
+    font-weight: bold !important;
+    line-height: 16px !important;
+	margin-bottom: 7px !important;
+	display: inline-block;
+}
+
+#profile-main-module-profile-team-dashboard-edit h3 {
+    color: #333333 !important;
+    font-weight: bold !important;
+    line-height: 16px !important;
+	margin-bottom: 16px !important;
+	display: block; 
+    font-size: 16px;
+    padding-top:0px!important;
+    margin-top: 0px!important;
+}
+#profile-main-ajax-summary div.left div.module {
+    margin-bottom: 16px;
+}
+#profile-main-module-profile-team-updates div.more {
+    cursor: pointer;
+	padding: 1px;
+	background-color: #f9f9f9;
+	border-top: 1px solid #dddddd;
+	text-align: center;
+	font-size: 11px;
+	color: #666666;
+	line-height: 11px;
+}
+#profile-main-module-profile-team-updates div.more span.icon {
+    display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/components/cs-component-icons.png);
+	background-position: -32px -95px;
+	background-repeat: no-repeat;
+	background-color: transparent; 
+	margin-right: 3px;
+	line-height: 13px;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+#profile-main-module-profile-team-updates div.more:hover{
+    color: #000000;
+}
+#profile-main-module-profile-team-updates div.more:hover span.icon{
+	background-position: -16px -95px;
+}
+#profile-main-module-profile-team-updates div.more:hover span.icon-up{
+    background-position: -32px -111px;
+}
+#profile-main-module-profile-discussion div.more{
+    cursor: pointer;
+	padding: 1px;
+	padding-top: 2px;
+	background-color: #f9f9f9;
+	border-top: 1px solid #dddddd;
+	text-align: center;
+	font-size: 11px;
+	color: #E54040;
+	line-height: 11px;
+}
+#profile-main-module-profile-discussion div.more span.icon{
+    display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/components/cs-component-icons.png) -32px -95px no-repeat transparent; 
+	margin-right: 3px;
+	line-height: 13px;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+#profile-main-module-profile-discussion div.more:hover{
+    color: #000000;
+}
+#profile-main-module-profile-discussion div.more:hover span.icon{
+	background-position: -16px -95px;
+}
+#profile-main-module-profile-program-description h3, #profile-main-module-profile-program-location h3{
+	width: 110px;
+	float: left;
+	font-size: 13px;
+	line-height: 18px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+#profile-main-module-profile-program-description p, #profile-main-module-profile-program-location p{
+	font-weight: normal;
+	margin-left: 110px;
+	font-size: 13px;
+	line-height: 18px;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+#profile-main-content div.feed-items div.feed-item {
+	width: auto;
+}
+#profile-main-content ul.feed-items-small{
+	padding: 0px;
+	margin: 0px;
+}
+#profile-main-content ul.feed-items-small > li{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+#profile-main-content ul.feed-items-small > li > a.image{
+	display: block;
+	height: 30px;
+	width: 30px;
+	position: relative;
+	float: left;
+	margin-top: 3px;
+}
+#profile-main-content ul.feed-items-small > li > a.image img{
+	height: 30px;
+	width: 30px;
+}
+#profile-main-content ul.feed-items-small > li > a.image span.border{
+	border: 1px solid #000000;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+#profile-main-content ul.feed-items-small > li div.item{
+	margin-left: 40px;
+	line-height: 18px;
+	position: relative;
+}
+#profile-main-content ul.feed-items-small > li div.item-content{
+	display: inline-block;
+}
+#profile-main-content ul.feed-items-small > li div.item div.title{
+	font-size: 12px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.title a{
+	color: #333333;
+	font-weight: bold;
+}
+#profile-main-content ul.feed-items-small > li div.item div.functions{
+	color: #666666;
+	font-size: 11px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.delete{
+	background-image: url(../images/icons.png);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: -75px -38px;
+	width: 13px;
+	height: 16px;
+	margin-top: 5px;
+	cursor: pointer;
+	position: absolute;
+	display: none;
+	right: 5px;
+	top: 1px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.delete:hover{
+	background-position: -88px -38px;
+}
+#profile-main-content ul.feed-items-small > li div.item:hover div.delete{
+	display: inline-block;
+}
+#profile-main-content ul.feed-items-small > li div.item div.functions span.comment{
+	float: left;
+	cursor: pointer;
+}
+#profile-main-content ul.feed-items-small > li div.item div.functions span.comment:hover{
+	text-decoration: underline;
+}
+#profile-main-content ul.feed-items-small > li div.item div.functions span.divider{
+	display: block;
+    float: left;
+    height: 14px;
+    line-height: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    width: 3px;
+	float: left;
+}
+#profile-main-content ul.feed-items-small > li div.item div.functions span.divider span{
+	background: url(../images/components/cs-components-icons.png) no-repeat scroll -52px 0 transparent;
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 3px;
+}
+#profile-main-content ul.feed-items-small > li div.item ul.tag-labels {
+    font-size: 10px;
+}
+#profile-main-content ul.feed-items-small > li div.item ul.tag-labels li {
+    display: inline-block;
+}
+#profile-main-content ul.feed-items-small > li div.item ul.tag-labels li a {
+    padding:2px 4px;
+    line-height: 12px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks{
+	
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block{
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-images a.image{
+	display: block;
+	margin-right: 6px;
+	position: relative;
+	float: left;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-images a.image-last{
+	margin-right: 0px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-images a.image span.border{
+	border: 1px solid #000000;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-images a.image-1{
+	width: 177px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-images a.image-1 img{
+	width: 177px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-images a.image-2{
+	width: 177px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-images a.image-2 img{
+	width: 177px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-images a.image-3{
+	width: 116px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-images a.image-3 img{
+	width: 116px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-text{
+	font-size: 12px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-text p{
+	position: relative;
+	overflow: hidden;
+	max-height: 54px
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-text p.full{
+	position: relative;
+	overflow: visible;
+	max-height: 20000px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-text p span.more{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	background-color: white;
+	line-height: 18px;
+	z-index: 1;
+	cursor: pointer;
+	display: block;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-text p span.more a{
+	cursor: pointer;
+	margin-left: 4px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-text p a.less{
+	cursor: pointer;
+	margin-left: 4px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-video{
+	font-size: 12px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-video div.video{
+	cursor: pointer; 
+	width: 177px;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-video div.video > img{
+	width: 360px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-video div.video > span.border{
+	border: 1px solid #000000;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-video div.video > p.title{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	color: #ffffff;
+	padding: 7px;
+	padding-top: 15px;
+	font-size: 11px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+	line-height: 16px;
+	white-space: nowrap;
+	background: #000000;
+	background: linear-gradient(transparent, rgba(0, 0, 0, .7));
+	background: -o-linear-gradient(transparent, rgba(0, 0, 0, .7));
+	background: -moz-linear-gradient(transparent, rgba(0, 0, 0, .7));
+	background: -webkit-gradient(linear, center top, center bottom, from(transparent), to(rgba(0, 0, 0, .7)));
+	background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+	background: -ms-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+	height: 15px;
+	overflow: hidden;
+	margin: 0px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-video div.video > div.play-button, #profile-main-content div.block div.play-button{
+	position: absolute; 
+	top: 30px; 
+	z-index: 2; 
+	left: 68px; 
+	height: 38px; 
+	width: 40px; 
+	background-color: rgba(234,89,85,.8);
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-video div.video > div.play-button span, #profile-main-content div.block div.play-button span {
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	margin-left: -5px;
+	margin-top: -10px; 
+	z-index: 3; 
+	background: url(../images/icons.png) no-repeat -120px -60px transparent; 
+	width: 12px; 
+	height: 21px;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-video div.video:hover div.play-button, #profile-main-content div.block:hover div.play-button {
+	background-color: rgba(234,89,85,.9);
+	left: 63px;
+	top: 25px;
+	width: 50px;
+	height: 48px;
+}
+#profile-main-content div.post-expanded div.block div.play-button {
+    top:57px;
+    left:83px;
+}
+#profile-main-content div.post-expanded div.block:hover div.play-button {
+    top:52px!important;
+    left:78px!important;
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-video div.video:hover div.play-button span, #profile-main-content div.block:hover div.play-button span{
+	background-position: -132px -60px;
+	height: 25px;
+	width: 14px;
+	margin-top: -12px; 
+	margin-left: -6px; 
+}
+#profile-main-content ul.feed-items-small > li div.item div.blocks div.block-file{
+	border: 1px solid #dddddd; 
+	background-color: #f5f5f5; 
+	padding: 5px 10px;  
+}
+#profile-main-content ul.feed-items-small > li div.comments{
+	padding: 10px;
+	font-size: 12px;
+}
+#profile-main-content ul.feed-items-small > li div.comments ul.comments{
+	padding: 0px;
+}
+#profile-main-content ul.feed-items-small > li div.comments ul.comments li{
+	margin-bottom: 10px;
+	padding: 0px;
+}
+#profile-main-content ul.feed-items-small > li div.comments ul.comments li div.message-image a{
+	display: block;
+	height: 24px;
+	width: 24px;
+	position: relative;
+}
+#profile-main-content ul.feed-items-small > li div.comments ul.comments li div.message-image a span.border{
+	border: 1px solid #000000;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+#profile-main-content ul.feed-items-small > li div.comments ul.comments div.message-functions{
+	font-size: 11px;
+}
+#profile-main-content ul.feed-items-small > li div.add-message{
+	padding: 0px;
+}
+#profile-main-content ul.feed-items-small > li div.add-message div.add-message-image span.border{
+	border: 1px solid #000000;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+#profile-main-content ul.feed-items-small > li div.add-message .cs-field-length-count-outer{
+	margin: 0px;
+}
+#profile-main-module-profile-teams div.expanded-teams h2{
+	font-weight: normal;
+	color: #333333;
+}
+
+#profile-main-module-profile-teams-private ul#profile-teams-wrapper {
+    margin-bottom: 5px;
+}
+
+#profile-main-module-profile-teams-private ul#profile-teams-wrapper li {
+    padding-bottom: 5px; 
+}
+
+#profile-main-module-profile-teams-private .hide-item, #profile-main-module-profile-mentors-private .hide-item, #profile-main-module-profile-files-private .hide-item {
+    display: none;
+}
+
+#profile-main-module-profile-teams-private ul#profile-teams-wrapper li ul.team-members-wrapper {
+    padding: 5px 0px 5px 30px;
+    display: none;
+}
+
+#profile-main-module-profile-teams-private ul#profile-teams-wrapper li ul.team-members-wrapper li span.title {
+    padding-left: 5px;
+}
+
+#profile-main-module-profile-teams-private li span.title {
+    padding-left: 5px;
+}
+
+#profile-main-module-profile-teams-private span.icon-more {
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background-image: url("../images/icons.png");
+    cursor: pointer;
+}
+
+#profile-main-module-profile-teams-private span.expand-member {
+    background-position: -55px -141px;
+}
+#profile-main-module-profile-teams-private span.expand-member:hover {
+    background-position: -55px -27px;
+}
+
+#profile-main-module-profile-teams-private span.collapse-member {
+    background-position: -55px -148px;
+}
+#profile-main-module-profile-teams-private span.collapse-member:hover {
+    background-position: -55px -34px;
+}
+
+#profile-main-module-profile-teams-private span.icon-message, #profile-main-module-profile-mentors-private span.icon-message {
+    display: inline-block;
+    height: 9px;
+    width: 13px;
+    background-image: url("../images/icons.png");
+    background-position: -85px -130px;
+    cursor: pointer;
+}
+
+
+#profile-main-ajax-deals-content .summary-text {
+	font-size: 22px;
+    line-height: 140%;
+    margin: 0 0 15px;
+    padding: 0;
+	margin-bottom: 20px;
+	display: block;
+}
+
+#profile-main-ajax-deals-content .summary-text .cs-deals-domain-select .caption .title {
+	font-size: 22px;
+}
+#profile-main-module-profile-followers-overview,
+#profile-main-module-profile-following-overview {
+	float: left;
+}
+#profile-main-module-profile-followers-overview {
+	padding-right: 20px;
+}
+#profile-main-module-ask-expert-overview .module-headline {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: normal;
+}
+#profile-main-module-ask-expert-overview .button-holder {
+	display: inline-block;
+	margin-right: 10px;
+}
+#profile-main-module-profile-actions{
+	text-align: left;
+}
+div.boards-actions #profile-main-module-profile-actions {
+    text-align: left;
+    margin-bottom: 20px;
+}
+#profile-main-module-profile-actions  span.actions-dropdown{
+	border-left: 0px;
+}
+#profile-main-module-profile-actions  span.actions-dropdown span.caption{
+	border-left: 1px solid transparent;
+}
+#profile-main-module-profile-actions  span.cs-dropdown-opened.actions-dropdown span.caption{
+	border-left: 1px solid #666666;
+}
+#profile-main-module-profile-actions .cs-button span.caption-text{
+	font-weight: normal;
+}
+#profile-top.personal #profile-main-module-profile-actions .cs-button span.caption-text{
+	font-weight: 700;
+}
+#profile-main-module-profile-actions .cs-dropdown span.caption-text{
+	font-weight: normal;
+}
+#profile-main-module-profile-skills-overview{
+	overflow: visible;
+}
+#profile-main-module-profile-skills-overview .skills{
+	width: auto;
+}
+#profile-main-module-profile-skills-overview .skills li.add-skill-link{
+	border-width: 0px;
+	background-color: transparent;
+	padding-right: 0px;
+	margin-right: 0px;
+	padding-left: 4px;
+}
+#profile-main-module-profile-members-overview  .block a.more, #profile-main-module-profile-mentors-overview  .block a.more, #profile-main-module-profile-investors-overview  .block a.more, #profile-main-module-profile-teams-edit  .block a.more{
+	background-color: #E54040;
+    color: #661D1D;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    height: 66px;
+    line-height: 12px;
+    padding-top: 26px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 92px;
+}
+
+div.profile-page-top a.back{
+	margin-bottom: 15px;
+	display: inline-block;
+}
+h2.full{
+	font-weight: normal !important;
+	font-size: 19px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	margin-bottom: 20px !important;
+	line-height: 26px !important;
+}
+h2.full span.private {
+    background-image: url("../images/icons.png");
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    background-position: -194px -240px;
+}
+h3.full{
+	font-weight: normal !important;
+	font-size: 20px !important;
+	line-height: 24px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	margin-bottom: 12px !important;
+}
+
+/* profile basic information */
+#csPersonalInformationBlock {
+    margin-top: -10px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+#csPersonalInformationBlock div.cs-basic-info-inside  {
+    color: #333333;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 11px;
+    margin-bottom: 2px;
+}
+#csPersonalInformationBlock div.cs-basic-info-inside  div.basic-info-heading-block{
+	font-size:13px;
+	padding-bottom:20px;
+	padding-top:10px;
+}
+
+#csPersonalInformationBlock div.cs-basic-info-inside  div.follow-button-block{
+	position:absolute;
+	right:6px;
+	top:6px;
+}
+
+#csPersonalInformationBlock div.cs-basic-info-inside table{
+    border-collapse:separate;
+    border-spacing:0px;
+}
+#csPersonalInformationBlock div.cs-basic-info-inside table  td.title{
+	width:80px;
+	font-size:11px;
+	text-align:left;
+	padding-left:10px;
+	padding-bottom:10px;
+	line-height:17px;
+	font-weight:bold;
+	padding-top:6px;
+	vertical-align:top;
+}
+#csPersonalInformationBlock div.cs-basic-info-inside table tr td.content div.datarow{
+	line-height: 17px;
+}
+#csPersonalInformationBlock div.cs-basic-info-inside table tr td.content {
+    line-height: 13px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+	font-size:11px;
+}
+#csPersonalInformationBlock div.cs-basic-info-inside table tr td.content p{
+  float: left;
+  font-size: 11px;
+  margin-left: 4px;
+}
+#csPersonalInformationBlock div.cs-basic-info-inside ul.basic-info-skills{
+	overflow:hidden;
+	margin:3px 0px 0px 0px;
+	font-size:11px;
+	font-weight:normal;
+}
+#csPersonalInformationBlock div.cs-basic-info-inside ul.basic-info-skills .cs-message-autocomplete-bit-box{
+	background: none repeat scroll 0 0 #ECECEC;
+    border: 1px solid #DDDDDD;
+    color: #444444;
+    cursor: default;
+    line-height: 16px;
+	font-weight:normal;
+    padding: 0px 6px;
+    position: relative;
+	margin-top:3px;
+}
+#csPersonalInformationBlock div.cs-basic-info-inside ul.profile-external-links{
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#csPersonalInformationBlock div.cs-basic-info-inside ul.profile-external-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#csPersonalInformationBlock div.cs-basic-info-inside ul.profile-external-links li a {
+    color: #E54040;
+    display: inline-block;
+    line-height: 18px;
+    padding-left: 8px;
+    position: relative;
+}
+
+#csPersonalInformationBlock div.basic-info-main-block{
+	padding-left:10px;
+	padding-bottom:15px;
+	font-size:11px;
+}
+
+#csPersonalInformationBlock  div.cs-basic-info-inside ul.profile-external-links li a span {
+    background-image: url("../images/icons.png");
+    display: block;
+    height: 22px;
+    left: 0;
+    position: absolute;
+    top: -18px;
+    width: 22px;
+	margin-top:3px;
+}
+#account-accelerators-ajax-application-evaluations-content span.delete-applicant {
+    background-color: transparent;
+    background-image: url("../images/icons.png");
+    background-position: -75px -38px;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin-bottom: -2px;
+    width: 13px;
+}
+
+#account-accelerators-ajax-application-evaluations-content span.contact-applicant {
+    background-color: transparent;
+    background-image: url("../images/icons.png");
+    background-position: -3px -163px;
+    cursor: pointer;
+    display: inline-block;
+    height: 17px;
+    margin-bottom: -1px;
+    width: 18px;
+}
+
+#account-accelerators-ajax-application-evaluations-content span.contact-applicant:hover {
+
+   background-position: -22px  -163px;
+
+}
+#account-accelerators-ajax-application-evaluations-content  div.load-video div.video{
+    background-color: black;
+    position: relative;
+}
+
+
+#account-accelerators-ajax-application-evaluations-content  div.load-video a.mediaSwitch:hover{
+    opacity: 1;
+}
+
+
+#account-accelerators-ajax-application-evaluations-content  div.load-video a.mediaSwitch {
+    cursor: pointer;
+    display: block;
+    height: 45px;
+    margin-top: -23px;
+    position: absolute;
+    top: 50%;
+	opacity:0.2;
+    width: 26px;
+}
+
+#account-accelerators-ajax-application-evaluations-content  div.load-video  a.mediaSwitch.prev {
+    background: url("../images/icons.png") no-repeat scroll -55px -214px transparent;
+    left: 20px;
+}
+
+#account-accelerators-ajax-application-evaluations-content  div.load-video a.mediaSwitch.next {
+    background: url("../images/icons.png") no-repeat scroll -29px -214px transparent;
+    right: 20px;
+}
+
+#account-accelerators-ajax-application-evaluations-content div.load-video span.nvideos {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 300px;
+    top: 190px;
+}
+
+
+
+
+#main-accelerators-ajax-application-info-content div.cs-application-updates .o-app-update span.delete-update, #ClosedApplicationFormUpdates div.cs-application-updates .o-app-update span.delete-update  {
+    background-color: transparent;
+    background-image: url("../images/icons.png");
+    background-position: -75px -38px;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin-bottom: -2px;
+    width: 13px;
+}
+#main-accelerators-ajax-application-info-content div.cs-application-updates .o-app-update span.delete-update:hover {
+    background-position: -88px -38px;
+}
+
+
+#profile-main-module-profile-recommendations-overview-edit #csReferencesProfileBlock {
+	padding:20px;
+	border-bottom:1px solid #D7D7D7;
+}
+#profile-main-module-profile-recommendations-overview-edit #csReferencesProfileBlock  div.field-block-desc{
+
+	font-size:12px;
+}
+
+#profile-main-module-profile-recommendations-overview-edit div.cs-reference-block div.recommendation-item{
+	border-bottom:1px solid #d7d7d7;
+	position:relative;
+	padding-bottom:18px;
+	margin-bottom:18px;
+}
+#profile-main-module-profile-recommendations-overview-edit div.cs-reference-block div.recommendation-item-last{
+	position:relative;
+}
+#profile-main-module-profile-recommendations-overview-edit div.cs-reference-block{
+	margin:20px;
+	position:relative;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-top{
+	color:black;
+}
+
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-main-text{
+    color: #333333;
+    font-size: 13px;
+	text-indent:5px;
+    text-align: left;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls{
+    color: #333333;
+    font-size: 13px;
+	text-indent:5px;
+    padding-top: 12px;
+    text-align: left;
+	text-align:right;
+	position:relative;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-item-heading{
+    line-height: 16px;
+    margin-left: 40px;
+    padding-top: 0;
+	margin-left:40px;	
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-item-heading span.ref_presentation a{
+	color: #333333;
+	font-size:13px;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-item-heading span.ref_presentation a:hover{
+	color: #E54040;
+	font-size:13px;
+}
+
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls span.remove-recommendation {
+    background-color: transparent;
+    background-image: url("../images/icons.png");
+    background-position: -75px -38px;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin-bottom: -2px;
+    width: 13px;
+	position:absolute;
+	top:14px;
+	right:9px;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls span.remove-recommendation:hover{
+	background-position: -88px -38px;
+}
+
+#profile-main-module-profile-recommendations-overview-edit .module-top-title{
+	border-bottom:1px solid #d7d7d7;
+	margin-bottom:10px;
+
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-item div.recommendation-item-image, #profile-main-module-profile-recommendations-overview-edit div.recommendation-item-last div.recommendation-item-image {
+	padding-bottom:10px;
+	width:40px;
+	float:left; 
+	font-size:12px;
+}
+#profile-main-module-profile-recommendations-overview div.recommendation-item div.recommendation-text, #profile-main-module-profile-recommendations-overview-edit div.recommendation-item-last div.recommendation-text{
+	color:#8f8f8f;
+	font-size:12px;
+	line-height:13px;
+	margin-left:40px;
+	position:relative;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls span.cs-switch-hidden-active{
+	background-color:	#ebebeb;
+	color: #333333;
+	font-weight:bold;
+	
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls span.cs-switch-hidden-active:hover{
+	background-color:	#ebebeb;
+	color:#333333;
+	font-weight:bold;
+	border-radius:3px 3px 3px 3px;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls span.cs-switch-hidden{
+
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls span.cs-switch-hidden:hover{
+	color:white;
+	cursor:pointer;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls span.cs-switch-visible-active{
+	background-color:	#ebebeb;
+	color: #333333;
+	font-weight:bold;
+}
+
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls span.cs-switch-visible{
+
+}
+
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls span.cs-switch-visible-active:hover{
+	background-color:	#ebebeb;
+	color: #333333;
+	border-radius:3px 3px 3px 3px;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls div.switch-control span.cs-switch-visible:hover{
+	background-color:	#E54040;
+	cursor:pointer;
+	color:white;
+	border-radius:3px 3px 3px 3px;
+}
+#profile-main-module-profile-recommendations-overview-edit div.recommendation-controls div.switch-control span.cs-switch-hidden:hover{
+	background-color:	#E54040;
+	cursor:default;
+	border-radius:3px 3px 3px 3px;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos {
+
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos   div.video div.player-preview{
+	cursor: pointer;
+    height: 152px;
+    position: relative;
+    width: 305px;
+	float:left;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos div.video {
+	cursor: pointer;
+	height: 201px;
+	position: relative;
+	width: 305px;
+	float: left;
+	padding-right: 1px;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos  div.video.right {
+	height: 120px;
+    width: 229px;
+	float: right;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos div.video div.player-preview div.image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 201px;
+	z-index: 1;
+	overflow: hidden;
+	width: 305px;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos div.video div.player-preview div.image img {
+	height: 200px;
+	width: 305px;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos  div.video.right div.player-preview {
+	height: 76px;
+    width: 229px;
+	float: right;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos  div.video.right div.player-preview div.image{
+	height: 76px;
+    width: 152px;
+	float:right;
+}
+
+#account-accelerators-ajax-application-evaluations-content div.profile-videos div.video.right div.player-preview div.image img{
+	height: 120px;
+    width: 152px;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos div.video div.player-preview div.image div.border {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	border: 1px solid #000000;
+	z-index: 1;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos div.video.right  div.player-preview div.image div.border {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	border: 1px solid #000000;
+	z-index: 1;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos div.video div.player-preview div.play-button{
+    background-color: rgba(234, 89, 85, 0.8);
+    height: 41px;
+    left: 140px;
+    position: absolute;
+    top: 76px;
+    width: 40px;
+    z-index: 3;
+}
+#account-accelerators-ajax-application-evaluations-content div.profile-videos div.video div.player-preview div.play-button span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -5px;
+	margin-top: -10px;
+	z-index: 3;
+	background: url(../images/icons.png) no-repeat -120px -60px transparent;
+	width: 12px;
+	height: 21px;
+}
+
+div.csBasicInformationSet div.select-video-block{
+	padding-top:30px;
+}
+div.basic-separator{
+	position:relative;
+	border-top:1px solid #d7d7d7;
+	margin-bottom:30px;
+}
+div.basic-separator span{
+	padding:0px 6px 0px 6px;
+	font-size:13px;
+	color:#333333;
+	position:absolute;
+	background-color:#f6f9f9;
+	left:133px;
+	top:-10px;
+
+}
+
+
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top{
+	margin: 0px 0px 5px 0px;
+	float: left;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part{
+	text-align:left;
+	float:left;
+	padding-right:10px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.image{
+	text-align:center;
+	float:left;
+}
+
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.location-block{
+	margin-top: 10px;
+	position: relative;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.rating {
+	margin: 0px 5px 0px 0px;
+	vertical-align: middle;
+	font-weight: bold; 
+	font-size: 35px;
+	color: #333333;
+	padding-right: 6px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.location {
+	font-weight: normal; 
+	line-height: 10px;
+	font-size: 10px;
+	color: #333333;
+}
+
+#account-accelerators-ajax-application-evaluations-content .applicant-additional-info .function-divider{
+	display: inline-block;
+	height: 14px;
+	margin-left: 2px;
+	margin-right: 2px;
+	position: relative;
+	width: 3px;
+	line-height: 11px;
+}
+#account-accelerators-ajax-application-evaluations-content .applicant-additional-info div.function-divider-icon{
+	display: block;
+	height: 3px;
+	top:8px;
+	width: 3px;
+	position:absolute;
+	background: url(../images/components/cs-components-icons.png) -52px 0px no-repeat transparent; 
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.info{
+	color: #333333;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-top: 2px;
+	width:300px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.info{
+    color: #333333;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 18px;
+    margin-top: 2px;
+    padding: 3px;
+    width: 355px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.links{
+	width:358px;
+}
+
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part  ul.profile-external-links{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-partul.profile-external-links{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part ul.profile-external-links li {
+	display: inline-block;
+	padding:0px;
+	margin:0px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part ul.profile-external-links li a{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 14px;
+	line-height:23px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part ul.profile-external-links li a{
+	position: relative;
+	padding-left: 8px;
+	display: inline-block;
+	line-height: 18px;
+	color: #E54040;
+}
+
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part  ul.profile-external-links li{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px 14px 4px 0px;
+	line-height:23px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part ul.profile-external-links li a{
+	position: relative;
+	padding-left: 28px;
+	display: inline-block;
+	line-height: 18px;
+	color: #E54040;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part ul.profile-external-links li  a span{
+	width: 22px;
+	height: 22px;
+	display: block;
+	background-image: url(../images/icons.png);
+	position: absolute;
+	top: -18px;
+	left: 0px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part ul.profile-external-links li  a span{
+	width: 22px;
+	height: 22px;
+	display: block;
+	background-image: url(../images/icons.png?u=2014-07-15);
+	position: absolute;
+	top: -2px;
+	left: 0px;
+}
+
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.text-block{
+	float: left;
+	padding-left: 10px;
+	max-width:550px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.text-block div.general{
+	font-size: 17px; 
+	color: #333333; 
+	font-weight: bold; 
+	line-height: 17px; 
+	margin-bottom: 5px;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.text-block div.general span.supporters{
+	color: #808080;
+    font-size: 12px;
+    line-height: 14px;
+	white-space: nowrap;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.left-part div.text-block div.general span.fieldset{
+	font-size: 10px; 
+	line-height: 10px;
+	min-width:50px;
+	white-space:nowrap;
+	font-weight: normal; 
+	color: #666666;
+}
+#account-accelerators-ajax-application-evaluations-content div.evaluation-top div.right-part{
+	text-align:left;
+	float:right;
+}
+div.current-round-question {
+
+}
+div.current-round-question  h2{
+
+}
+#evaluate-funding-current-round div.current-round-question{
+	line-height:18px;
+	font-size:13px;
+	padding-bottom:5px;
+}
+#evaluate-funding-current-round div.current-round-question div.title{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	padding-bottom:15px;
+}
+
+#evaluate-funding-current-round div.current-round-question div.stage{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	padding-left:10px;
+}
+#evaluate-funding-current-round div.current-round-question span.date{
+	display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+}
+#evaluate-funding-current-round div.raising_money_details{
+	line-height:18px;
+	font-size:13px;
+	padding-bottom:5px;
+}
+#evaluate-funding-current-round div.raising_money_details label{
+	padding-right:8px;
+}
+
+#csTrendsModuleId{
+	
+}
+#csTrendsModuleId #trends-module  div.content table{
+	width: 100%;
+}
+
+#trends-module span.caption span.caption-icon {
+    width: 18px!important;
+    height: 18px!important;
+}
+
+
+.add-custom-block .cs-message-autocomplete li.cs-message-autocomplete-bit {
+    font-size: 10px!important;
+}
+.add-custom-block .cs-message-autocomplete {
+    font-weight:normal;
+}
+.add-custom-block .cs-message-autocomplete .background-text {
+    color:#999!important;
+}  
+
+.add-custom-block .cs-dater-field .dater-wrapper  {
+    padding: 8px 2px 8px 7px!important;
+    color:#999!important;
+    font-size: 11px;
+}
+
+.add-custom-block .cs-button span.caption {
+    padding: 0px 10px!important;
+}
+
+.status-green {
+    color: #3EB05B;
+    font-weight:bold;
+}
+
+.status-red {
+    color:#E54040;
+    font-weight:bold;
+}
+
+
+/* SUB CSS */
+#subInvestWrapper {
+    width: 740px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#subInvestWrapper h2 {
+    padding: 0px;
+    color:#0b354b;
+    font-size: 36px;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-weight: bold;
+    width: 550px;
+    margin: 0 auto 30px;
+    text-align: center;
+    line-height: 47px;
+}
+#subInvestWrapper h3.h3-title {
+    padding: 0px;
+    margin: 0px;
+    color:#0b354b;
+    font-size: 26px;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+
+#subInvestWrapper #main-frontpage-ajax-jobs-content {
+    width: 675px;
+    margin: 0 auto;
+}
+
+#subInvestWrapper #investmentsWrapper {
+    text-align: center;
+    padding: 0px 0px 20px 0px
+}
+
+#subInvestWrapper #investmentsWrapper ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    width: 90px;
+    vertical-align: top;
+}
+#subInvestWrapper #investmentsWrapper ul li.hidden {
+    display: none;
+}
+#subInvestWrapper #investmentsWrapper span.more-span {
+    display: inline-block;
+    text-align: right;
+}
+#subInvestWrapper #investmentsWrapper ul li div.block {
+	width: 92px;
+	margin-right: 10px;
+}
+#subInvestWrapper #investmentsWrapper ul li div.block span.more{
+	background-color: #fff;
+    color: #661D1D;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 20px;
+    line-height: 12px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 92px;
+}
+#subInvestWrapper #investmentsWrapper ul li div.block span.more span.num {
+    color: #333;
+	font-size: 30px;
+	line-height: 30px;
+}
+#subInvestWrapper #investmentsWrapper h5 {
+    padding: 0px;
+    margin: 0px 0px 7px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color:#0b354b;
+    line-height: 32px;
+}
+
+#subInvestWrapper div.text-content p.text-p {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#subInvestWrapper div.text-content p.text-p:last-child {
+    padding-bottom: 0px;
+}
+
+#subInvestWrapper h4 {
+    padding: 0px;
+    color:#000000;
+    font-size: 28px;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 690px;
+    line-height: 47px;
+    margin-bottom: 30px;
+}
+
+#subInvestWrapper .sub-button-secondary {
+    margin: 0 auto 30px;
+    display: block;
+    height: auto!important;
+}
+
+#subInvestWrapper .sub-button-secondary span.caption {
+    padding: 10px 0px 14px;
+    background: #87e0fd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #87e0fd 0%, #0bbb45 0%, #088531 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(0%,#0bbb45), color-stop(100%,#088531)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #87e0fd 0%,#0bbb45 0%,#088531 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #87e0fd 0%,#0bbb45 0%,#088531 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #87e0fd 0%,#0bbb45 0%,#088531 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #87e0fd 0%,#0bbb45 0%,#088531 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#088531',GradientType=0 ); /* IE6-9 */
+}
+#subInvestWrapper .sub-button-secondary span.caption-text {
+    color:#d9ffb2;
+    font-weight: 700;
+    font-family: 'Open Sans Condensed',sans-serif;  
+    font-size: 28px;
+    text-shadow: #455536 -1px -1px, #6cb37c 1px 1px;
+}
+
+#subInvestWrapper ul.sub-general-ul {
+    float:left;
+    font-family: 'Open Sans', sans-serif;
+    color:#000000;
+    font-size: 15px;
+    line-height: 22px;
+}
+#subInvestWrapper ul.sub-general-ul li {
+    padding-bottom: 17px;
+    position: relative;
+}
+#subInvestWrapper ul.sub-general-ul li a.no-hover:hover {
+    text-decoration: none;
+}
+#subInvestWrapper ul.sub-general-ul li.indented {
+    padding-left: 23px;
+}
+#subInvestWrapper ul.sub-general-ul li span.icon-star {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url('../images/star.png') top left no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+#subInvestWrapper ul.sub-general-ul li span.icon-user {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url('../images/user.png') top left no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+#subInvestWrapper ul.sub-general-ul li span.icon-user.icon-user-low-opacity {
+    opacity: 0.7;
+}
+#subInvestWrapper ul.sub-general-ul li:first-child {
+    padding-bottom: 25px;
+}
+
+#subInvestWrapper ul#subPresentation {
+    width: 302px;
+}
+
+#subInvestWrapper ul#subProgram {
+    width: 343px;
+    padding-left: 75px;
+}
+
+#subInvestWrapper ul#fledgeTeams li {
+    float: left;
+    margin: 0px 14px 15px 0px;
+    border: #eee solid 1px;
+    box-shadow: #eee 2px 2px 8px;
+}
+
+#subInvestWrapper ul#fledgeTeams li span.bg {
+    width: 230px;
+    height: 173px;
+    display: block;
+    background: url('../images/misc/fledge.png') no-repeat 0px -2px
+}
+div.manage-documents div.manage-docs {
+	padding: 14px 20px 10px 20px;
+}
+div.manage-documents div.manage-docs.highlight {
+    background:#FFF9B1;
+}
+div.manage-docs div.files-table {
+	width: 600px;
+	float:left;
+}
+
+div.manage-docs div.files-table div.one-doc div.doc-block .doc-name span.icon {
+    background: url("../images/icons.png") no-repeat scroll -219px -306px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 16px;
+}
+div.manage-docs  div.files-table div.one-doc div.doc-block {
+	display: inline-block;
+	padding:10px;
+}
+div.manage-docs div.files-table div.one-doc div.doc-block {
+	display: inline-block;
+	width:400px;
+}
+div.manage-docs div.files-table div.one-doc div.doc-remove {
+	display: inline-block;
+	width:400px;
+}
+	
+div.manage-round div.company-information {
+	display:block;
+	position:relative;
+	padding:15px 10px 10px 20px;
+}
+div.manage-round div.company-information div.copy-button{
+	padding:10px 10px 15px 0px;
+	display:block;
+}
+
+div.manage-round div.company-information div.company-info-block {
+	display:block;
+	padding-top:5px;
+	padding-bottom:3px;
+	font-size:12px;
+}
+div.inside-round div.manage-people div.top-invite-block {
+	margin-bottom:2px; 
+} 
+div.inside-round div.manage-people div.desc_text {
+	font-size:11px;
+	padding:0px;
+	line-height:11px;
+	margin-bottom:10px;
+} 
+
+div.manage-round div.company-information div.company-info-block label{
+	width:198px;
+	display:inline-block;
+}
+#profile-main-module-profile-manage-round-edit div.manage-round div.inside-round {
+
+}
+
+
+#profile-main-module-profile-manage-round-edit div.manage-round span.remove-round-people {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/icons.png");
+    background-position: -75px -38px;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+	top: 7px;
+    position: absolute;
+    width: 13px;
+}
+
+#profile-main-module-profile-manage-round-edit div.manage-round table.investments-tab tr td {
+    line-height: 28px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+body div.layout-border div.sub-title {
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	background-color: #fbfbfb;
+	position: relative;
+	line-height: 20px;
+	font-size:14px;
+	padding-left: 20px;
+	font-weight: bolder;
+	min-height: 20px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#profile-main-module-profile-manage-round-edit div.manage-round div.round-people {
+	padding: 4px 20px 10px 20px;
+}
+#profile-main-module-profile-manage-round-edit div.manage-round div.general-information {
+	padding: 14px 20px 10px 20px;
+	width: 600px;
+	position:relative;
+}
+div.manage-round div.right-corner {
+	position:absolute;
+	right:14px;
+	bottom:15px;
+}
+#profile-main-module-profile-manage-round-edit div.manage-round div.general-information table.main-info{
+	width:760px;
+}
+#profile-main-module-profile-manage-round-edit div.manage-round div.general-information table.main-info th{
+	padding-top:4px;
+	width:198px;
+	margin-right:10px;
+	padding-bottom:10px;
+}
+#profile-main-module-profile-manage-round-edit div.manage-round div.general-information table.main-info th label{
+	display:inline-block;
+}
+
+#profile-main-module-profile-manage-round-edit div.manage-round div.general-information table.main-info td{
+	padding-top:4px;
+	padding-bottom:11px;
+}
+div.inside-round div.manage-round  div.top-invite-block {
+	width:200px;
+}
+
+#csRoundPeopleList tr td{
+	padding-top:2px;
+	padding-bottom:2px;
+	line-height: 32px;
+}
+table#csRoundPeopleList tr td.status {
+	width:80px;
+	font-weight:normal;
+	text-align:left;
+}
+table#csRoundPeopleList tr td span.separator {
+    border-bottom: #eee solid 1px;
+    display: block;
+    width: 86%;
+}
+table#csRoundPeopleList td.presentation{
+	font-weight:normal;
+	width: 130px;
+	padding-left:8px;
+	padding-right:8px;
+}
+table#csRoundPeopleList td.remove_investor{
+	width:100px;
+	font-weight:normal;
+	width: 150px;
+	padding-left:8px;
+}
+div.manage-investments div.investments-inside {
+	padding:14px 20px 10px 20px;
+}
+
+#profile-main-module-profile-manage-round-edit div.layout-border div.sub-title {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#csInvestmentTable {
+
+
+}
+#csInvestmentTable tr {
+
+}
+#csInvestmentTable tr td {
+	padding: 5px 0;
+	vertical-align : middle;
+}
+#csInvestmentTable tr td.leftcol {
+	font-weight: normal;
+    text-align: left;
+    width: 120px;
+
+}
+#csInvestmentTable tr td.investment_date {
+	font-weight: normal;
+    text-align: left;
+    width: 110px;
+}
+
+#csInvestmentTable tr td.amount {
+	color: #000000;
+    text-align: right;
+	width:150px;
+
+}
+#csInvestmentTable tr td.data {
+	color: #000000;
+    text-align: right;
+	width:100px;
+}
+
+#profile-main-module-profile-startup-investing-edit tr td {
+	padding-top:5px;
+}
+#profile-main-module-profile-startup-investing-edit tr td table.investment-tags tr td {
+	padding-top:5px;
+	width:133px;
+	padding-bottom:3px;
+}
+#profile-main-module-profile-startup-investing-edit tr td.invest_quantity{
+	font-weight:bold;
+	line-height:30px;
+}
+#profile-main-module-profile-startup-investing-edit tr td.invest_amount_funding{
+	font-weight:bold;
+	line-height:30px;
+}
+#profile-main-module-profile-startup-investing-edit tr td table.investment-tags tr td span.fp-name {
+
+	cursor:pointer;
+}
+
+#editTeamTagsWrapper {
+    position: absolute;
+    top: -35px;
+    right: -130px;
+    width: 347px;
+    z-index: 100;
+    background: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+    -mox-box-shadow: 2px 2px 2px #eee;
+    padding: 5px 25px 5px 25px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    min-height: 20px;
+}
+
+#editTeamTagsWrapper #team-tags-wrapper {
+    margin-left: 9px;
+}
+#editTeamTagsWrapper a.navigation-arrow {
+    width: 25px;
+    display: block;
+    position: absolute;
+}
+#editTeamTagsWrapper a.navigation-arrow:hover {
+    background: #eee;
+    border:#ccc solid 1px;
+}
+#editTeamTagsWrapper a.navigation-arrow span {
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+}
+#editTeamTagsWrapper a.next-team {
+    right: 2px;
+    top: 25px;
+    height: 90%;
+}
+#editTeamTagsWrapper a.next-team span {
+    background: url(../images/icons.png) -282px -176px transparent no-repeat;
+    top: 47%;
+}
+
+#editTeamTagsWrapper a.previous-team {
+    left: 4px;
+    top: 7px;
+    height: 96%;
+}
+
+#editTeamTagsWrapper a.previous-team span {
+    background: url(../images/icons.png) -260px -198px transparent no-repeat;
+    top: 50%;
+}
+
+#editTeamTagsWrapper #edit-team-info {
+    display: none;
+    text-align: right;
+    font-size: 15px;
+}
+
+#editTeamTagsWrapper .edit-team-toggle {
+    position:absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#editTeamTagsWrapper .edit-team-toggle:hover {
+    text-decoration: none;
+    color:#E54040;
+}
+
+#editTeamTagsWrapper .cs-message-autocomplete-bit-box {
+    width: 100px;
+    font-size: 12PX;
+    font-weight: normal;
+    padding: 1px 0px 1px 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#investmentProgressBar {
+   padding:5px 0px 0px 0px;
+   border-radius: 3px;
+}
+
+#investmentProgressBar #investmentProgressBarTop {
+    border:1px solid #666;
+    width:400px;
+    padding:0px;
+    height:40px;
+    position:relative;
+    border-radius: 3px;
+}
+#investmentProgressBar #investmentProgressBarTop #investmentProgressBarPercentage {
+    position:absolute;
+    top:11px;
+    right:5px;
+    font-weight:normal;
+    font-size:20px;
+}
+#investmentProgressBar #investmentProgressBarTop #investmentProgressBarColor {
+    height:40px;
+    background-color: #1a5f10;
+    background: -webkit-linear-gradient(top, #51b541, #1a5f10);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #51b541), color-stop(1, #1a5f10));
+    background: -moz-linear-gradient(top, #51b541, #1a5f10);
+    background: -o-linear-gradient(top, #51b541, #1a5f10);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#51b541, EndColorStr=#1a5f10);
+    background: linear-gradient(top, #51b541, #1a5f10);
+    border:0;
+    padding:0;
+    position:relative;
+}
+
+#profile-funding-personal-investing-amount ul#investBoxInfo {
+    margin: -15px 0px 10px;
+    list-style: disc;
+    padding-left: 17px;
+}
+
+#profile-funding-personal-investing-amount ul#investBoxInfo li {
+    padding: 0px 0px 8px;
+}
+
+#manageRoundWrapper {
+    position: relative;
+    margin: 20px 10px 10px 10px;
+    padding: 13px 20px 0px;
+    background-color: #FFF9B1;
+    border: 1px solid #E5D33F;
+    font-size: 14px;
+    width: 95%;
+    left: -10px;
+}
+
+#manageRoundWrapper p {
+    padding-bottom: 7px;
+}
+
+#manageRoundMainBlock {
+    padding-bottom:0px;
+    margin-bottom:10px;
+    margin-left:0px;
+}
+
+#manageRoundMainBlock div.top-part div.left-part {
+    float:left;
+    margin-bottom:5px;
+    padding:0;
+    text-align:left;
+}
+#manageRoundMainBlock div.top-part div.left-part h2 {
+    padding-left:0px;
+    margin-left:0px;
+    display:inline-block;
+}
+
+#manageRoundMainBlock div.top-part div.right-part {
+    float:right;
+    text-align:right;
+}
+
+#manageRoundMainBlock div.middle-part div.left-middle {
+    width:538px;
+    float:left;
+    font-size:16px;
+}
+
+#manageRoundMainBlock div.middle-part {
+    padding-top: 10px;
+}
+
+#manageRoundMainBlock div.middle-part div.left-middle, #manageRoundMainBlock div.middle-part div.right-middle {
+    float:left;
+}
+
+#manageRoundMainBlock div.middle-part div.left-middle ul.valuation-format li {
+    float:left;
+    width: 175px;
+    padding: 10px 0px;
+    vertical-align: middle;
+    text-align: center;
+    border-left: #ccc solid 1px;
+}
+#manageRoundMainBlock div.middle-part div.left-middle ul.valuation-format.valuation-format-extra-convertible_note li {
+    width: 133px;
+}
+#manageRoundMainBlock div.middle-part div.left-middle ul.valuation-format.valuation-format-extra li {
+    width: 150px;
+}
+
+#manageRoundMainBlock div.middle-part div.left-middle ul.valuation-format li:first-child {
+    border-left: none;
+}
+
+#manageRoundMainBlock div.middle-part div.left-middle ul.valuation-format li span.valuation-text {
+    font-size: 14px;
+}
+
+#manageRoundMainBlock div.middle-part div.right-middle div.investor-stats {
+    padding: 4px 0px 0px;
+    font-size: 14px;
+}
+#manageRoundMainBlock div.bottom-part div#investorsWrapper {
+    padding-top: 15px;
+}
+#manageRoundMainBlock div.bottom-part div#investorsWrapper div.investor-info {
+    float:left;
+    padding-right: 10px;
+    width: 178px;
+    padding-bottom: 10px;
+}
+
+#manageRoundMainBlock div.bottom-part div#investorsWrapper div.investor-info img {
+    border:#333 solid 1px;
+}
+    
+#manageRoundMainBlock div.bottom-part div#investorsWrapper div.investor-info a.investor-image {
+    float: left;
+    display: block;
+}
+#manageRoundMainBlock div.bottom-part div#investorsWrapper div.investor-info div.investor-presentation {
+    vertical-align: top;
+    font-size: 13px;
+    float:left;
+    display:block;
+    padding-left: 5px;
+    width: 100px;
+    overflow: hidden;
+}
+
+#blurryElement {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 300;
+    background: #fff;
+    opacity: 0.94;
+}
+
+#addCapInvestorInputWrapper .cs-message-autocomplete {
+    font-weight: normal;
+}
+
+.share-button-wrapper {
+    margin-right: 15px;
+}
+#teamPageJobsWrapper ul.jobs li.pin-box {
+    width: 190px;
+    margin: 10px;
+} 
+
+#csDynamicLinksList > * {
+    margin-bottom: 5px;
+}

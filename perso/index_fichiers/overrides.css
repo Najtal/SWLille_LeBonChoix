@@ -1,0 +1,94 @@
+body.rrd:not(.white-bg) {
+  background-color: #f2f2f2 !important;
+}
+body.rrd.white-bg {
+  background-color: #ffffff !important;
+}
+.rrd .rdtop {
+  padding: 0px !important;
+  padding-top: 0px !important;
+  background-color: #f2f2f2 !important;
+}
+.rrd.resp #content {
+  padding: 0px !important;
+}
+.rrd.resp .content_holder .middle {
+  max-width: none !important;
+  padding: 0px !important;
+}
+.rrd.resp #csProfileMenuSelect {
+  display: none;
+}
+@media all and (max-width: 767px) {
+  .rrd.resp #csProfileMenuSelect {
+    display: block;
+  }
+}
+.rrd.resp #csProfileMenuList {
+  display: block;
+}
+@media all and (max-width: 767px) {
+  .rrd.resp #csProfileMenuList {
+    display: none;
+  }
+}
+.rrd h4.round-data {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  font-weight: 400 !important;
+  color: #4f4f4f !important;
+  letter-spacing: -0.025em !important;
+}
+.stars-wrapper:before {
+  color: #cecece;
+}
+.stars-wrapper .stars:before {
+  color: #39b54a;
+}
+.stars-wrapper .stars.grey:before {
+  color: #a6a6a6;
+}
+.animated-loading-bar {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #808080;
+  padding: 2px;
+  overflow: hidden;
+}
+.animated-loading-bar .loader {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #39b54a;
+}
+.popup-overlay .popup-header span.bold {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #4f4f4f;
+  letter-spacing: -0.025em;
+  margin-bottom: 15px !important;
+}
+@media all and (max-width: 767px) {
+  .popup-overlay .popup-header span.bold {
+    padding-right: 20px;
+  }
+}
+.popup-overlay .popup-header:first-child {
+  margin-top: -5px;
+}
+.popup-overlay .has-close .popup-header span.bold {
+  padding-right: 20px;
+}
+#main-frontpage-content {
+  padding: 0px;
+}

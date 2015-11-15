@@ -1,0 +1,438 @@
+#profile-contacts-popup-contacts-content div.contacts-list{
+	height: 280px;
+	overflow: auto;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li{
+	padding: 10px;
+	margin: 0px;
+	border-bottom: 1px solid #dddddd;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-image{
+	float: left;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-image img{
+	height: 30px;
+	width: 30px;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-content{
+	margin-left: 40px;
+	line-height: 14px;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-content div.title a{
+	font-weight: bold;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-content div.relationships{
+	color: #666666;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-content div.functions{
+	position: absolute; 
+	top: 12px; 
+	right: 10px;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-content  div.functions span.cs-dropdown{
+	display: inline-block;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li:hover div.list-content div.functions span.cs-dropdown{
+	
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-content div.functions span.cs-dropdown-opened{
+	display: inline-block;
+}
+#profile-contacts-popup-contacts-content div.contacts-list div.no-contacts{
+	padding: 20px;
+	padding-top: 40px;
+	color: #666666;
+	text-align: center;
+}
+#main-authorization-popup-join-invitation-content div.join-message{
+	margin-bottom: 20px; 
+	line-height: 14px;
+}
+#main-authorization-popup-join-invitation-content div.join-message div.join-message-image{
+	float: left
+}
+#main-authorization-popup-join-invitation-content div.join-message div.join-message-image img{
+	height: 30px; 
+	width: 30px;
+}
+#main-authorization-popup-join-invitation-content div.join-message div.join-message-content{
+	margin-left: 40px;
+}
+#main-authorization-popup-join-invitation-content span.join-fb-button{
+	margin-right: 0px;
+}
+
+#main-frontpage-ajax-show-feedback-content div.popup-layout{
+	padding-bottom: 0px;
+}	
+#main-frontpage-ajax-show-feedback-content div.popup-layout div.field-block{
+	margin-bottom: 10px;
+}
+#main-frontpage-ajax-show-feedback-content div.popup-layout div.field-block div.field-title span.required {
+	color: #E54040;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-content div.relationships > div{
+	background-color: transparent;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 13px;
+    margin-bottom: -2px;
+    margin-right: 4px;
+    width: 13px;
+}
+#profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-content div.relationships > div.iconMentoring{
+		background: url(../images/components/cs-component-icons.png) no-repeat scroll -116px 0px transparent;
+} #profile-contacts-popup-contacts-content div.contacts-list ul.contacts-list > li div.list-content div.relationships > div.iconMentored{
+		background: url(../images/components/cs-component-icons.png) -116px -13px transparent no-repeat;
+}
+
+
+.popup-content ul.field-list{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	display: block;
+}
+.popup-content ul.field-list > li{
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+	line-height: 13px;
+}
+.popup-content ul.field-list > li.last{
+	margin-bottom: 0px;
+	border-bottom-width: 0px;
+}
+.popup-content ul.field-list > li div.field-number{
+	width: 20px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.popup-content ul.field-list > li div.field-title{
+	width: 170px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 20px;
+}
+.popup-content ul.field-list > li div.field-title .field-desc{
+	color: #888888;
+	font-weight: normal;
+}
+.popup-content ul.field-list > li div.field-content{
+	display: table-cell;
+	vertical-align: middle;
+}
+#profile-services-popup-get-deal .popup-layout ol li {
+	padding-bottom: 10px;
+}
+#profile-services-popup-get-deal .popup-layout a {
+	color: #333333;
+	text-decoration: none;
+}
+#profile-services-popup-get-deal .popup-layout .recipient-count {
+	display: table-cell;
+	padding-right: 5px;	
+}
+#profile-services-popup-get-deal .popup-layout .recipient-details {
+	display: table-cell;
+	padding-top: 3px;
+	width: 450px;
+}
+#profile-services-popup-get-deal .popup-layout .deal-receiver {
+	font-size: 13px;
+	line-height: 15px;
+}
+#profile-services-popup-get-deal .popup-layout .deal-receiver img.deal-profile-thumb {
+	float: left;
+	padding-right: 15px;
+}
+#profile-services-popup-get-deal .popup-layout .deal-receiver .deal-profile-position {
+	font-weight: normal;
+	font-size: 11px;
+	padding-left: 1px;
+}
+#profile-services-popup-get-deal-confirm div.deal-image{
+	float: left; 
+	width: 50px
+}
+#profile-services-popup-get-deal-confirm div.deal-content{
+	margin-left: 70px;
+}
+#profile-services-popup-get-deal-confirm div.deal-code{
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	background-color: #eeeeee;
+	padding: 6px 10px;
+	text-align: center;
+	margin-top: 5px;
+}
+#profile-services-popup-get-deal-confirm div.deal-description{
+	margin-top: 10px; 
+	color: #333333;
+}
+#profile-services-popup-get-deal-confirm div.deal-add{
+	margin-top: 15px; 
+}
+#profile-services-popup-get-deal-confirm div.caption{
+	font-weight: bold;
+}
+#profile-services-popup-get-deal-confirm ol{
+	padding: 0px;
+	margin: 0px;
+	line-height: 15px;
+	margin-top: 10px;
+	list-style: decimal inside;
+}
+#profile-services-popup-get-deal-confirm ol > li{
+	padding: 0px;
+	margin: 0px;
+}
+#profile-services-popup-get-deal-confirm ol > li a{
+	word-wrap: break-word;
+}
+#profile-services-popup-share-deals div.card-preview{
+	float: left;
+	padding-right: 20px;
+}
+#profile-services-popup-share-deals div.benefits{
+	font-size: 16px;
+	float: left;
+}
+#profile-services-popup-share-deals div.benefits ul{
+	list-style-position: outside;
+	list-style-type: disc;
+	width:300px;
+	padding-left:20px;
+}
+#profile-services-popup-share-deals div.benefits ul li{
+	margin-top: 7px;
+}
+#create-organization-popup-wrapper .field-block {
+	margin-bottom:0px!important;	
+}
+#create-organization-popup-wrapper .popup-layout {
+	padding-bottom:0px!important;
+}
+#create-organization-popup-wrapper div.invite-people-box {
+	float: left;
+}
+#create-organization-popup-wrapper div.invite-role-select  {
+	float: left;
+	position: relative;
+}
+#create-organization-popup-wrapper .role-word {
+	padding: 0px 10px 0px 13px;
+}
+#create-organization-popup-wrapper .cs-dropdown .caption {
+	font-weight: bold;
+}
+
+#account-organizations-popup-invite-users .popup-header {
+	font-weight: bold;
+}
+#account-organizations-popup-invite-users  div.popup-layout {
+	padding-bottom: 0px;
+}
+div.popup-layout div.popup-error-holder {
+	/*color: #E54040;
+	padding-bottom: 20px;*/
+	display: none;
+}
+#account-organizations-popup-invite-users  div.popup-layout div.field-block div.field-title {
+	font-weight: bold;
+}
+#account-organizations-popup-invite-users div.popup-layout div.invite-people-box.add-people {
+	float: left;
+}
+#account-organizations-popup-invite-users div.popup-layout div.invite-people-box.add-people ul.cs-message-autocomplete-bits {
+	min-height: 28px;
+}
+#account-organizations-popup-invite-users div.popup-layout div.invite-people-box.add-people ul.cs-message-autocomplete-bits li.cs-message-autocomplete-bit-box-single {
+   white-space: pre-wrap;
+   white-space: -moz-pre-wrap;
+   white-space: -pre-wrap;
+   white-space: -o-pre-wrap;
+   word-wrap: break-word;
+}
+#account-organizations-popup-invite-users div.popup-layout div.invite-people-box.add-people .cs-message-autocomplete-bit-editable-input {
+	font-size: 13px;
+}
+#account-organizations-popup-invite-users div.popup-layout div.invite-role-select span.role-word {
+	padding: 0px 10px 0px 13px;
+}
+#account-organizations-popup-invite-users div.popup-layout div.invite-role-select span.cs-dropdown span.caption {
+	font-weight: bold;
+}
+#account-organizations-popup-invite-users div.popup-footer span.button1 span,
+#account-organizations-popup-invite-users div.popup-footer span.button2 span {
+	font-weight: bold;
+}
+#account-contacts-popup-invite{
+
+}
+#account-contacts-popup-invite ul.invite-list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	clear: both;
+	padding-left: 10px;
+}
+#account-contacts-popup-invite ul.invite-list li{
+	padding: 0px;
+	margin: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	float: left;
+	width: 195px;
+	display: block;
+	border: 1px solid transparent;
+	padding: 5px;
+}
+#account-contacts-popup-invite ul.invite-list li:hover{
+	border: 1px solid #dddddd;
+	background-color: #eeeeee;
+}
+#account-contacts-popup-invite ul.invite-list li.selected{
+	border: 1px solid #B1191C;
+	background-color: #DA2828;
+	color: #ffffff;
+}
+#account-contacts-popup-invite ul.invite-list li.gap{
+	padding: 0px;
+	margin: 0px;
+	height: 15px;
+	clear: both;
+	display: block;
+	float: none;
+}
+#account-contacts-popup-invite ul.invite-list li.clear{
+	float: none;
+	clear: left;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+#account-contacts-popup-invite ul.invite-list li div.item{
+	display: table;
+	height: 50px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+#account-contacts-popup-invite ul.invite-list li div.item div.image{
+	display: table-cell;
+	width: 60px;
+}
+#account-contacts-popup-invite ul.invite-list li div.item div.image img{
+	height: 50px;
+	width: 50px;
+	border: 1px solid #ffffff;
+}
+#account-contacts-popup-invite ul.invite-list li div.item div.presentation{
+	display: table-cell;
+	vertical-align: middle;
+}
+#account-contacts-popup-invite div.foot{
+	padding-top: 20px;
+	text-align: right;
+}
+#account-contacts-popup-follow{
+
+}
+#account-contacts-popup-follow div.follow-all-area{
+	padding: 20px 20px 0px 20px;
+}
+#account-contacts-popup-follow ul.follow-list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	clear: both;
+}
+#account-contacts-popup-follow ul.follow-list li{
+	padding: 0px;
+	margin: 20px;
+	margin-top: 0px;
+	margin-right: 30px;
+	float: left;
+	width: 290px;
+	display: block;
+}
+#account-contacts-popup-follow ul.follow-list li.gap{
+	padding: 0px;
+	margin: 0px;
+	height: 20px;
+	clear: both;
+	display: block;
+	float: none;
+}
+#account-contacts-popup-follow ul.follow-list li.clear{
+	float: none;
+	clear: left;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+#account-contacts-popup-follow ul.follow-list a{
+	color: #333333;
+}
+#account-contacts-popup-follow ul.follow-list li div.item{
+	display: table;
+	height: 64px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+#account-contacts-popup-follow ul.follow-list li div.item div.image{
+	display: table-cell;
+	width: 74px;
+}
+#account-contacts-popup-follow ul.follow-list li div.item div.image img{
+	height: 64px;
+	width: 64px;
+}
+#account-contacts-popup-follow ul.follow-list li div.item div.presentation{
+	display: table-cell;
+	vertical-align: middle;
+}
+#account-contacts-popup-follow ul.follow-list li div.item div.presentation a{
+	font-weight: bold
+}
+#account-contacts-popup-follow ul.follow-list li div.item div.presentation span.tagline{
+	font-size: 10px; 
+	line-height: 16px; 
+	display: block; 
+	height: 50px; 
+	overflow: hidden;
+	width: 145px;
+}
+#account-contacts-popup-follow ul.follow-list li div.item div.follow{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+#account-contacts-popup-follow ul.follow-list li div.item div.follow span.button-following{
+	
+}
+#account-contacts-popup-follow ul.follow-list li div.item div.follow span.button-following span.caption{
+	border-color: #d7d7d7;
+	background: #ebebeb;
+	color: #777777;
+}
+#account-contacts-popup-follow div.foot{
+	padding-top: 20px;
+	text-align: right;
+}
